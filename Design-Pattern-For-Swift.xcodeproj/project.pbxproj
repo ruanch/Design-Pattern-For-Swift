@@ -14,6 +14,14 @@
 		E3F1870820036DD7006BA9ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F1870620036DD7006BA9ED /* LaunchScreen.storyboard */; };
 		E3F1871320036DD8006BA9ED /* Design_Pattern_For_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1871220036DD8006BA9ED /* Design_Pattern_For_SwiftTests.swift */; };
 		E3F1871E20036DD8006BA9ED /* Design_Pattern_For_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1871D20036DD8006BA9ED /* Design_Pattern_For_SwiftUITests.swift */; };
+		E3F1879D2005F690006BA9ED /* 简单工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F1879C2005F690006BA9ED /* 简单工厂模式.png */; };
+		E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187A02005FABC006BA9ED /* SimpleFactoryClient.swift */; };
+		E3F187A32005FC91006BA9ED /* NERole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187A22005FC91006BA9ED /* NERole.swift */; };
+		E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187A42005FEAE006BA9ED /* NERoleFactory.swift */; };
+		E3F187A72005FF7F006BA9ED /* NERoleGuanYu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187A62005FF7F006BA9ED /* NERoleGuanYu.swift */; };
+		E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187A820060082006BA9ED /* NERoleXiaoQiao.swift */; };
+		E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187AA200602A5006BA9ED /* NERoleLvBu.swift */; };
+		E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F187AC200602F1006BA9ED /* NERoleAKe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		E3F1871920036DD8006BA9ED /* Design-Pattern-For-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design-Pattern-For-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F1871D20036DD8006BA9ED /* Design_Pattern_For_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Pattern_For_SwiftUITests.swift; sourceTree = "<group>"; };
 		E3F1871F20036DD8006BA9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F1879C2005F690006BA9ED /* 简单工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "简单工厂模式.png"; sourceTree = "<group>"; };
+		E3F187A02005FABC006BA9ED /* SimpleFactoryClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleFactoryClient.swift; sourceTree = "<group>"; };
+		E3F187A22005FC91006BA9ED /* NERole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole.swift; sourceTree = "<group>"; };
+		E3F187A42005FEAE006BA9ED /* NERoleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleFactory.swift; sourceTree = "<group>"; };
+		E3F187A62005FF7F006BA9ED /* NERoleGuanYu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleGuanYu.swift; sourceTree = "<group>"; };
+		E3F187A820060082006BA9ED /* NERoleXiaoQiao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleXiaoQiao.swift; sourceTree = "<group>"; };
+		E3F187AA200602A5006BA9ED /* NERoleLvBu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleLvBu.swift; sourceTree = "<group>"; };
+		E3F187AC200602F1006BA9ED /* NERoleAKe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleAKe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,30 @@
 		E3F186FC20036DD7006BA9ED /* Design-Pattern-For-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				E3F187832005F66B006BA9ED /* 1.简单工厂模式 */,
+				E3F187842005F66B006BA9ED /* 2.工厂方法模式 */,
+				E3F187852005F66B006BA9ED /* 3.抽象工厂模式 */,
+				E3F187862005F66B006BA9ED /* 4.策略模式 */,
+				E3F187872005F66B006BA9ED /* 5.代理模式 */,
+				E3F187882005F66B006BA9ED /* 6.装饰模式 */,
+				E3F187892005F66B006BA9ED /* 7.模板方法模式 */,
+				E3F1878A2005F66B006BA9ED /* 8.外观模式 */,
+				E3F1878B2005F66B006BA9ED /* 9.建造者模式 */,
+				E3F1878C2005F66B006BA9ED /* 10.观察者模式 */,
+				E3F1878D2005F66B006BA9ED /* 11.状态模式 */,
+				E3F1878E2005F66B006BA9ED /* 12.适配者模式 */,
+				E3F1878F2005F66B006BA9ED /* 13.备忘录模式 */,
+				E3F187902005F66B006BA9ED /* 14.组合模式 */,
+				E3F187912005F66B006BA9ED /* 15.迭代器模式 */,
+				E3F187922005F66B006BA9ED /* 16.单例模式 */,
+				E3F187932005F66B006BA9ED /* 17.桥接模式 */,
+				E3F187942005F66B006BA9ED /* 18.命令模式 */,
+				E3F187952005F66B006BA9ED /* 19.职责链模式 */,
+				E3F187962005F66B006BA9ED /* 20.中介者模式 */,
+				E3F187972005F66B006BA9ED /* 21.享元模式 */,
+				E3F187982005F66B006BA9ED /* 22.解释器模式 */,
+				E3F187992005F66B006BA9ED /* 23.访问者模式 */,
+				E3F1879A2005F66B006BA9ED /* 24.原型模式 */,
 				E3F186FD20036DD7006BA9ED /* AppDelegate.swift */,
 				E3F186FF20036DD7006BA9ED /* ViewController.swift */,
 				E3F1870120036DD7006BA9ED /* Main.storyboard */,
@@ -123,6 +163,190 @@
 				E3F1871F20036DD8006BA9ED /* Info.plist */,
 			);
 			path = "Design-Pattern-For-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		E3F187832005F66B006BA9ED /* 1.简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E3F1879B2005F690006BA9ED /* 工厂 */,
+				E3F1879C2005F690006BA9ED /* 简单工厂模式.png */,
+				E3F187A02005FABC006BA9ED /* SimpleFactoryClient.swift */,
+			);
+			path = "1.简单工厂模式";
+			sourceTree = "<group>";
+		};
+		E3F187842005F66B006BA9ED /* 2.工厂方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2.工厂方法模式";
+			sourceTree = "<group>";
+		};
+		E3F187852005F66B006BA9ED /* 3.抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3.抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		E3F187862005F66B006BA9ED /* 4.策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4.策略模式";
+			sourceTree = "<group>";
+		};
+		E3F187872005F66B006BA9ED /* 5.代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5.代理模式";
+			sourceTree = "<group>";
+		};
+		E3F187882005F66B006BA9ED /* 6.装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6.装饰模式";
+			sourceTree = "<group>";
+		};
+		E3F187892005F66B006BA9ED /* 7.模板方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "7.模板方法模式";
+			sourceTree = "<group>";
+		};
+		E3F1878A2005F66B006BA9ED /* 8.外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "8.外观模式";
+			sourceTree = "<group>";
+		};
+		E3F1878B2005F66B006BA9ED /* 9.建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9.建造者模式";
+			sourceTree = "<group>";
+		};
+		E3F1878C2005F66B006BA9ED /* 10.观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "10.观察者模式";
+			sourceTree = "<group>";
+		};
+		E3F1878D2005F66B006BA9ED /* 11.状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "11.状态模式";
+			sourceTree = "<group>";
+		};
+		E3F1878E2005F66B006BA9ED /* 12.适配者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "12.适配者模式";
+			sourceTree = "<group>";
+		};
+		E3F1878F2005F66B006BA9ED /* 13.备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "13.备忘录模式";
+			sourceTree = "<group>";
+		};
+		E3F187902005F66B006BA9ED /* 14.组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "14.组合模式";
+			sourceTree = "<group>";
+		};
+		E3F187912005F66B006BA9ED /* 15.迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15.迭代器模式";
+			sourceTree = "<group>";
+		};
+		E3F187922005F66B006BA9ED /* 16.单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "16.单例模式";
+			sourceTree = "<group>";
+		};
+		E3F187932005F66B006BA9ED /* 17.桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17.桥接模式";
+			sourceTree = "<group>";
+		};
+		E3F187942005F66B006BA9ED /* 18.命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "18.命令模式";
+			sourceTree = "<group>";
+		};
+		E3F187952005F66B006BA9ED /* 19.职责链模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "19.职责链模式";
+			sourceTree = "<group>";
+		};
+		E3F187962005F66B006BA9ED /* 20.中介者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "20.中介者模式";
+			sourceTree = "<group>";
+		};
+		E3F187972005F66B006BA9ED /* 21.享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "21.享元模式";
+			sourceTree = "<group>";
+		};
+		E3F187982005F66B006BA9ED /* 22.解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "22.解释器模式";
+			sourceTree = "<group>";
+		};
+		E3F187992005F66B006BA9ED /* 23.访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "23.访问者模式";
+			sourceTree = "<group>";
+		};
+		E3F1879A2005F66B006BA9ED /* 24.原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "24.原型模式";
+			sourceTree = "<group>";
+		};
+		E3F1879B2005F690006BA9ED /* 工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				E3F187A22005FC91006BA9ED /* NERole.swift */,
+				E3F187AC200602F1006BA9ED /* NERoleAKe.swift */,
+				E3F187A62005FF7F006BA9ED /* NERoleGuanYu.swift */,
+				E3F187A820060082006BA9ED /* NERoleXiaoQiao.swift */,
+				E3F187AA200602A5006BA9ED /* NERoleLvBu.swift */,
+				E3F187A42005FEAE006BA9ED /* NERoleFactory.swift */,
+			);
+			path = "工厂";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F1870820036DD7006BA9ED /* LaunchScreen.storyboard in Resources */,
+				E3F1879D2005F690006BA9ED /* 简单工厂模式.png in Resources */,
 				E3F1870520036DD7006BA9ED /* Assets.xcassets in Resources */,
 				E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */,
 			);
@@ -259,7 +484,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F187A32005FC91006BA9ED /* NERole.swift in Sources */,
+				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
+				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
+				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
+				E3F187A72005FF7F006BA9ED /* NERoleGuanYu.swift in Sources */,
+				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
+				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
 				E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +737,7 @@
 				E3F1872420036DD8006BA9ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3F1872520036DD8006BA9ED /* Build configuration list for PBXNativeTarget "Design-Pattern-For-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +746,7 @@
 				E3F1872720036DD8006BA9ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3F1872820036DD8006BA9ED /* Build configuration list for PBXNativeTarget "Design-Pattern-For-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +755,7 @@
 				E3F1872A20036DD8006BA9ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,11 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var datas = NSArray()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "24种设计模式"
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        
+        datas = ["简单工厂模式","工厂方法模式","抽象工厂模式","策略模式"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +31,28 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //MARK: 24种设计模块列表 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return datas.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = String(describing: self.datas[indexPath.row])
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView .deselectRow(at: indexPath, animated: true)
+        
+        let vc = SimpleFactoryClient()
+        vc.title = String(describing:datas[indexPath.row])
+        vc.view.backgroundColor = UIColor.white
+        
+        self.navigationController? .pushViewController(vc, animated: true)
+    }
+    
+    
 
 }
 
