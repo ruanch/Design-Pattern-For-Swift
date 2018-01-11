@@ -36,6 +36,13 @@
 		E3CE117420073D32006E3A73 /* NEOperationTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117320073D32006E3A73 /* NEOperationTower.swift */; };
 		E3CE117620073DB4006E3A73 /* NEPCOperationTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117520073DB4006E3A73 /* NEPCOperationTower.swift */; };
 		E3CE117820073DCD006E3A73 /* NEMobileOperationTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117720073DCD006E3A73 /* NEMobileOperationTower.swift */; };
+		E3CE117A2007520D006E3A73 /* 策略模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE11792007520D006E3A73 /* 策略模式.png */; };
+		E3CE117C20075228006E3A73 /* StrategyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117B20075228006E3A73 /* StrategyClient.swift */; };
+		E3CE118220075385006E3A73 /* GoldContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE118120075385006E3A73 /* GoldContext.swift */; };
+		E3CE1184200753D4006E3A73 /* GoldStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE1183200753D4006E3A73 /* GoldStrategy.swift */; };
+		E3CE11862007542F006E3A73 /* GoldStrategyNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11852007542F006E3A73 /* GoldStrategyNormal.swift */; };
+		E3CE118820075465006E3A73 /* GoldStrategyRobate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE118720075465006E3A73 /* GoldStrategyRobate.swift */; };
+		E3CE118A20075499006E3A73 /* GoldStrategyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE118920075499006E3A73 /* GoldStrategyReturn.swift */; };
 		E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FD20036DD7006BA9ED /* AppDelegate.swift */; };
 		E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FF20036DD7006BA9ED /* ViewController.swift */; };
 		E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F1870120036DD7006BA9ED /* Main.storyboard */; };
@@ -100,6 +107,13 @@
 		E3CE117320073D32006E3A73 /* NEOperationTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOperationTower.swift; sourceTree = "<group>"; };
 		E3CE117520073DB4006E3A73 /* NEPCOperationTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEPCOperationTower.swift; sourceTree = "<group>"; };
 		E3CE117720073DCD006E3A73 /* NEMobileOperationTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEMobileOperationTower.swift; sourceTree = "<group>"; };
+		E3CE11792007520D006E3A73 /* 策略模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "策略模式.png"; sourceTree = "<group>"; };
+		E3CE117B20075228006E3A73 /* StrategyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyClient.swift; sourceTree = "<group>"; };
+		E3CE118120075385006E3A73 /* GoldContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldContext.swift; sourceTree = "<group>"; };
+		E3CE1183200753D4006E3A73 /* GoldStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategy.swift; sourceTree = "<group>"; };
+		E3CE11852007542F006E3A73 /* GoldStrategyNormal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategyNormal.swift; sourceTree = "<group>"; };
+		E3CE118720075465006E3A73 /* GoldStrategyRobate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategyRobate.swift; sourceTree = "<group>"; };
+		E3CE118920075499006E3A73 /* GoldStrategyReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategyReturn.swift; sourceTree = "<group>"; };
 		E3F186FA20036DD7006BA9ED /* Design-Pattern-For-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-Pattern-For-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F186FD20036DD7006BA9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F186FF20036DD7006BA9ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -320,6 +334,42 @@
 			path = "手机对小兵的操作";
 			sourceTree = "<group>";
 		};
+		E3CE117D20075280006E3A73 /* 策略 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE117E20075280006E3A73 /* 18888降到13888 */,
+				E3CE117F20075280006E3A73 /* 打九折价格 */,
+				E3CE118020075280006E3A73 /* 正常价格 */,
+				E3CE118120075385006E3A73 /* GoldContext.swift */,
+				E3CE1183200753D4006E3A73 /* GoldStrategy.swift */,
+			);
+			path = "策略";
+			sourceTree = "<group>";
+		};
+		E3CE117E20075280006E3A73 /* 18888降到13888 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE118920075499006E3A73 /* GoldStrategyReturn.swift */,
+			);
+			path = "18888降到13888";
+			sourceTree = "<group>";
+		};
+		E3CE117F20075280006E3A73 /* 打九折价格 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE118720075465006E3A73 /* GoldStrategyRobate.swift */,
+			);
+			path = "打九折价格";
+			sourceTree = "<group>";
+		};
+		E3CE118020075280006E3A73 /* 正常价格 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11852007542F006E3A73 /* GoldStrategyNormal.swift */,
+			);
+			path = "正常价格";
+			sourceTree = "<group>";
+		};
 		E3F186F120036DD7006BA9ED = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +481,9 @@
 		E3F187862005F66B006BA9ED /* 4.策略模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE117D20075280006E3A73 /* 策略 */,
+				E3CE11792007520D006E3A73 /* 策略模式.png */,
+				E3CE117B20075228006E3A73 /* StrategyClient.swift */,
 			);
 			path = "4.策略模式";
 			sourceTree = "<group>";
@@ -697,6 +750,7 @@
 			files = (
 				E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */,
 				E3F1870820036DD7006BA9ED /* LaunchScreen.storyboard in Resources */,
+				E3CE117A2007520D006E3A73 /* 策略模式.png in Resources */,
 				E3CE113420070AF5006E3A73 /* 抽象工厂模式.png in Resources */,
 				E3F1879D2005F690006BA9ED /* 简单工厂模式.png in Resources */,
 				E3F1870520036DD7006BA9ED /* Assets.xcassets in Resources */,
@@ -734,16 +788,21 @@
 				E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */,
 				E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
+				E3CE118220075385006E3A73 /* GoldContext.swift in Sources */,
+				E3CE1184200753D4006E3A73 /* GoldStrategy.swift in Sources */,
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
 				E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */,
+				E3CE117C20075228006E3A73 /* StrategyClient.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
 				E3CE114920070D8A006E3A73 /* NEAbstractFactory.swift in Sources */,
 				E3CE117420073D32006E3A73 /* NEOperationTower.swift in Sources */,
 				E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */,
 				E3CE112320070011006E3A73 /* NERoleAKe_FM.swift in Sources */,
 				E3CE112620070011006E3A73 /* NERoleXiaoQiao_FM.swift in Sources */,
+				E3CE118A20075499006E3A73 /* GoldStrategyReturn.swift in Sources */,
 				E3CE114F20070E20006E3A73 /* NERole_AF.swift in Sources */,
+				E3CE118820075465006E3A73 /* GoldStrategyRobate.swift in Sources */,
 				E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */,
 				E3CE116220071E46006E3A73 /* NEPCOperationRole.swift in Sources */,
 				E3CE117620073DB4006E3A73 /* NEPCOperationTower.swift in Sources */,
@@ -756,6 +815,7 @@
 				E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */,
 				E3CE116E20073AEA006E3A73 /* NEOperationXiaoBin.swift in Sources */,
 				E3CE116620072131006E3A73 /* NEMobileFactory.swift in Sources */,
+				E3CE11862007542F006E3A73 /* GoldStrategyNormal.swift in Sources */,
 				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
 				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
 				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
