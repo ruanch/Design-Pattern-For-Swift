@@ -21,6 +21,21 @@
 		E3CE1130200707DC006E3A73 /* NERoleLvBuFactory_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112F200707DC006E3A73 /* NERoleLvBuFactory_FM.swift */; };
 		E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE113120070AA2006E3A73 /* AbstractFactoryClient.swift */; };
 		E3CE113420070AF5006E3A73 /* 抽象工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE113320070AF5006E3A73 /* 抽象工厂模式.png */; };
+		E3CE114920070D8A006E3A73 /* NEAbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE114820070D8A006E3A73 /* NEAbstractFactory.swift */; };
+		E3CE114F20070E20006E3A73 /* NERole_AF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE114A20070E20006E3A73 /* NERole_AF.swift */; };
+		E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE115F20071829006E3A73 /* NEOperationRole.swift */; };
+		E3CE116220071E46006E3A73 /* NEPCOperationRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE116120071E46006E3A73 /* NEPCOperationRole.swift */; };
+		E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE116320072040006E3A73 /* NEMobileOperationRole.swift */; };
+		E3CE116620072131006E3A73 /* NEMobileFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE116520072131006E3A73 /* NEMobileFactory.swift */; };
+		E3CE11682007215C006E3A73 /* NEPCFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11672007215C006E3A73 /* NEPCFactory.swift */; };
+		E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11692007225B006E3A73 /* NEXiaoBin_AF.swift */; };
+		E3CE116C200739CD006E3A73 /* NETower_AF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE116B200739CD006E3A73 /* NETower_AF.swift */; };
+		E3CE116E20073AEA006E3A73 /* NEOperationXiaoBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE116D20073AEA006E3A73 /* NEOperationXiaoBin.swift */; };
+		E3CE117020073BB5006E3A73 /* NEPCOperationXiaoBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE116F20073BB5006E3A73 /* NEPCOperationXiaoBin.swift */; };
+		E3CE117220073C82006E3A73 /* NEMobileOperationXiaoBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117120073C82006E3A73 /* NEMobileOperationXiaoBin.swift */; };
+		E3CE117420073D32006E3A73 /* NEOperationTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117320073D32006E3A73 /* NEOperationTower.swift */; };
+		E3CE117620073DB4006E3A73 /* NEPCOperationTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117520073DB4006E3A73 /* NEPCOperationTower.swift */; };
+		E3CE117820073DCD006E3A73 /* NEMobileOperationTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE117720073DCD006E3A73 /* NEMobileOperationTower.swift */; };
 		E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FD20036DD7006BA9ED /* AppDelegate.swift */; };
 		E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FF20036DD7006BA9ED /* ViewController.swift */; };
 		E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F1870120036DD7006BA9ED /* Main.storyboard */; };
@@ -70,6 +85,21 @@
 		E3CE112F200707DC006E3A73 /* NERoleLvBuFactory_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleLvBuFactory_FM.swift; sourceTree = "<group>"; };
 		E3CE113120070AA2006E3A73 /* AbstractFactoryClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactoryClient.swift; sourceTree = "<group>"; };
 		E3CE113320070AF5006E3A73 /* 抽象工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂模式.png"; sourceTree = "<group>"; };
+		E3CE114820070D8A006E3A73 /* NEAbstractFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEAbstractFactory.swift; sourceTree = "<group>"; };
+		E3CE114A20070E20006E3A73 /* NERole_AF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_AF.swift; sourceTree = "<group>"; };
+		E3CE115F20071829006E3A73 /* NEOperationRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOperationRole.swift; sourceTree = "<group>"; };
+		E3CE116120071E46006E3A73 /* NEPCOperationRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NEPCOperationRole.swift; path = "../手机上对角色操作/NEPCOperationRole.swift"; sourceTree = "<group>"; };
+		E3CE116320072040006E3A73 /* NEMobileOperationRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEMobileOperationRole.swift; sourceTree = "<group>"; };
+		E3CE116520072131006E3A73 /* NEMobileFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEMobileFactory.swift; sourceTree = "<group>"; };
+		E3CE11672007215C006E3A73 /* NEPCFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEPCFactory.swift; sourceTree = "<group>"; };
+		E3CE11692007225B006E3A73 /* NEXiaoBin_AF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEXiaoBin_AF.swift; sourceTree = "<group>"; };
+		E3CE116B200739CD006E3A73 /* NETower_AF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NETower_AF.swift; sourceTree = "<group>"; };
+		E3CE116D20073AEA006E3A73 /* NEOperationXiaoBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOperationXiaoBin.swift; sourceTree = "<group>"; };
+		E3CE116F20073BB5006E3A73 /* NEPCOperationXiaoBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEPCOperationXiaoBin.swift; sourceTree = "<group>"; };
+		E3CE117120073C82006E3A73 /* NEMobileOperationXiaoBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEMobileOperationXiaoBin.swift; sourceTree = "<group>"; };
+		E3CE117320073D32006E3A73 /* NEOperationTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEOperationTower.swift; sourceTree = "<group>"; };
+		E3CE117520073DB4006E3A73 /* NEPCOperationTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEPCOperationTower.swift; sourceTree = "<group>"; };
+		E3CE117720073DCD006E3A73 /* NEMobileOperationTower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEMobileOperationTower.swift; sourceTree = "<group>"; };
 		E3F186FA20036DD7006BA9ED /* Design-Pattern-For-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-Pattern-For-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F186FD20036DD7006BA9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F186FF20036DD7006BA9ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,53 +172,152 @@
 			path = "商品";
 			sourceTree = "<group>";
 		};
-		E3CE113720070B9F006E3A73 /* 抽象工厂 */ = {
+		E3CE113F20070D46006E3A73 /* 操作商品 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE115620071729006E3A73 /* 操作角色 */,
+				E3CE115920071729006E3A73 /* 操作塔 */,
+				E3CE115A20071729006E3A73 /* 操作小兵 */,
 			);
-			path = "抽象工厂";
+			path = "操作商品";
 			sourceTree = "<group>";
 		};
-		E3CE113820070B9F006E3A73 /* 角色工厂 */ = {
+		E3CE114020070D46006E3A73 /* 工厂 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE11542007166A006E3A73 /* 手机工厂 */,
+				E3CE11552007166A006E3A73 /* 电脑工厂 */,
+				E3CE114820070D8A006E3A73 /* NEAbstractFactory.swift */,
 			);
-			path = "角色工厂";
+			path = "工厂";
 			sourceTree = "<group>";
 		};
-		E3CE113920070B9F006E3A73 /* 角色商品 */ = {
+		E3CE114420070D46006E3A73 /* 商品 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE114520070D46006E3A73 /* 塔商品 */,
+				E3CE114620070D46006E3A73 /* 小兵商品 */,
+				E3CE114720070D46006E3A73 /* 角色商品 */,
 			);
-			path = "角色商品";
+			path = "商品";
 			sourceTree = "<group>";
 		};
-		E3CE113A20070B9F006E3A73 /* 塔工厂 */ = {
+		E3CE114520070D46006E3A73 /* 塔商品 */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = "塔工厂";
-			sourceTree = "<group>";
-		};
-		E3CE113B20070B9F006E3A73 /* 塔商品 */ = {
-			isa = PBXGroup;
-			children = (
+				E3CE116B200739CD006E3A73 /* NETower_AF.swift */,
 			);
 			path = "塔商品";
 			sourceTree = "<group>";
 		};
-		E3CE113C20070B9F006E3A73 /* 小兵工厂 */ = {
+		E3CE114620070D46006E3A73 /* 小兵商品 */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = "小兵工厂";
-			sourceTree = "<group>";
-		};
-		E3CE113D20070B9F006E3A73 /* 小兵商品 */ = {
-			isa = PBXGroup;
-			children = (
+				E3CE11692007225B006E3A73 /* NEXiaoBin_AF.swift */,
 			);
 			path = "小兵商品";
+			sourceTree = "<group>";
+		};
+		E3CE114720070D46006E3A73 /* 角色商品 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE114A20070E20006E3A73 /* NERole_AF.swift */,
+			);
+			path = "角色商品";
+			sourceTree = "<group>";
+		};
+		E3CE11542007166A006E3A73 /* 手机工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE116520072131006E3A73 /* NEMobileFactory.swift */,
+			);
+			path = "手机工厂";
+			sourceTree = "<group>";
+		};
+		E3CE11552007166A006E3A73 /* 电脑工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11672007215C006E3A73 /* NEPCFactory.swift */,
+			);
+			path = "电脑工厂";
+			sourceTree = "<group>";
+		};
+		E3CE115620071729006E3A73 /* 操作角色 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE115720071729006E3A73 /* 手机上对角色操作 */,
+				E3CE115820071729006E3A73 /* 电脑上对角色操作 */,
+				E3CE115F20071829006E3A73 /* NEOperationRole.swift */,
+			);
+			path = "操作角色";
+			sourceTree = "<group>";
+		};
+		E3CE115720071729006E3A73 /* 手机上对角色操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE116320072040006E3A73 /* NEMobileOperationRole.swift */,
+			);
+			path = "手机上对角色操作";
+			sourceTree = "<group>";
+		};
+		E3CE115820071729006E3A73 /* 电脑上对角色操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE116120071E46006E3A73 /* NEPCOperationRole.swift */,
+			);
+			path = "电脑上对角色操作";
+			sourceTree = "<group>";
+		};
+		E3CE115920071729006E3A73 /* 操作塔 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE115B2007176C006E3A73 /* 电脑对塔的操作 */,
+				E3CE115C2007176C006E3A73 /* 手机对塔的操作 */,
+				E3CE117320073D32006E3A73 /* NEOperationTower.swift */,
+			);
+			path = "操作塔";
+			sourceTree = "<group>";
+		};
+		E3CE115A20071729006E3A73 /* 操作小兵 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE115D20071775006E3A73 /* 电脑对小兵的操作 */,
+				E3CE115E20071775006E3A73 /* 手机对小兵的操作 */,
+				E3CE116D20073AEA006E3A73 /* NEOperationXiaoBin.swift */,
+			);
+			path = "操作小兵";
+			sourceTree = "<group>";
+		};
+		E3CE115B2007176C006E3A73 /* 电脑对塔的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE117520073DB4006E3A73 /* NEPCOperationTower.swift */,
+			);
+			path = "电脑对塔的操作";
+			sourceTree = "<group>";
+		};
+		E3CE115C2007176C006E3A73 /* 手机对塔的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE117720073DCD006E3A73 /* NEMobileOperationTower.swift */,
+			);
+			path = "手机对塔的操作";
+			sourceTree = "<group>";
+		};
+		E3CE115D20071775006E3A73 /* 电脑对小兵的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE116F20073BB5006E3A73 /* NEPCOperationXiaoBin.swift */,
+			);
+			path = "电脑对小兵的操作";
+			sourceTree = "<group>";
+		};
+		E3CE115E20071775006E3A73 /* 手机对小兵的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE117120073C82006E3A73 /* NEMobileOperationXiaoBin.swift */,
+			);
+			path = "手机对小兵的操作";
 			sourceTree = "<group>";
 		};
 		E3F186F120036DD7006BA9ED = {
@@ -290,13 +419,9 @@
 		E3F187852005F66B006BA9ED /* 3.抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				E3CE113720070B9F006E3A73 /* 抽象工厂 */,
-				E3CE113820070B9F006E3A73 /* 角色工厂 */,
-				E3CE113A20070B9F006E3A73 /* 塔工厂 */,
-				E3CE113C20070B9F006E3A73 /* 小兵工厂 */,
-				E3CE113920070B9F006E3A73 /* 角色商品 */,
-				E3CE113B20070B9F006E3A73 /* 塔商品 */,
-				E3CE113D20070B9F006E3A73 /* 小兵商品 */,
+				E3CE114020070D46006E3A73 /* 工厂 */,
+				E3CE114420070D46006E3A73 /* 商品 */,
+				E3CE113F20070D46006E3A73 /* 操作商品 */,
 				E3CE113320070AF5006E3A73 /* 抽象工厂模式.png */,
 				E3CE113120070AA2006E3A73 /* AbstractFactoryClient.swift */,
 			);
@@ -602,24 +727,39 @@
 			files = (
 				E3CE11282007007B006E3A73 /* NERoleFactory_FM.swift in Sources */,
 				E3CE1130200707DC006E3A73 /* NERoleLvBuFactory_FM.swift in Sources */,
+				E3CE117220073C82006E3A73 /* NEMobileOperationXiaoBin.swift in Sources */,
 				E3F187A32005FC91006BA9ED /* NERole.swift in Sources */,
 				E3CE112E20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift in Sources */,
+				E3CE117020073BB5006E3A73 /* NEPCOperationXiaoBin.swift in Sources */,
+				E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */,
+				E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
 				E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
+				E3CE114920070D8A006E3A73 /* NEAbstractFactory.swift in Sources */,
+				E3CE117420073D32006E3A73 /* NEOperationTower.swift in Sources */,
+				E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */,
 				E3CE112320070011006E3A73 /* NERoleAKe_FM.swift in Sources */,
 				E3CE112620070011006E3A73 /* NERoleXiaoQiao_FM.swift in Sources */,
+				E3CE114F20070E20006E3A73 /* NERole_AF.swift in Sources */,
 				E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */,
+				E3CE116220071E46006E3A73 /* NEPCOperationRole.swift in Sources */,
+				E3CE117620073DB4006E3A73 /* NEPCOperationTower.swift in Sources */,
 				E3CE112A20070308006E3A73 /* NERoleAKeFactory_FM.swift in Sources */,
+				E3CE11682007215C006E3A73 /* NEPCFactory.swift in Sources */,
+				E3CE117820073DCD006E3A73 /* NEMobileOperationTower.swift in Sources */,
 				E3F187A72005FF7F006BA9ED /* NERoleGuanYu.swift in Sources */,
 				E3CE112C20070409006E3A73 /* NERoleGuanYuFactory_FM.swift in Sources */,
 				E3CE112420070011006E3A73 /* NERoleGuanYu_FM.swift in Sources */,
 				E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */,
+				E3CE116E20073AEA006E3A73 /* NEOperationXiaoBin.swift in Sources */,
+				E3CE116620072131006E3A73 /* NEMobileFactory.swift in Sources */,
 				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
 				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
 				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
+				E3CE116C200739CD006E3A73 /* NETower_AF.swift in Sources */,
 				E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
