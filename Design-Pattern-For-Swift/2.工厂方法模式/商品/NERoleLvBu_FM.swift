@@ -8,7 +8,7 @@
 
 import UIKit
 //吕布角色
-class NERoleLvBu: NSObject,NERole {
+class NERoleLvBu_FM: NSObject,NERole_FM {
     var name: String = ""
     var price: CGFloat = 0.0
     var magicPoint: CGFloat = 0.0

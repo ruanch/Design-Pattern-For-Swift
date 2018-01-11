@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE111820060D7C006E3A73 /* 工厂方法模式.png */; };
+		E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */; };
+		E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111D20070011006E3A73 /* NERole_FM.swift */; };
+		E3CE112320070011006E3A73 /* NERoleAKe_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111E20070011006E3A73 /* NERoleAKe_FM.swift */; };
+		E3CE112420070011006E3A73 /* NERoleGuanYu_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111F20070011006E3A73 /* NERoleGuanYu_FM.swift */; };
+		E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112020070011006E3A73 /* NERoleLvBu_FM.swift */; };
+		E3CE112620070011006E3A73 /* NERoleXiaoQiao_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112120070011006E3A73 /* NERoleXiaoQiao_FM.swift */; };
+		E3CE11282007007B006E3A73 /* NERoleFactory_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11272007007B006E3A73 /* NERoleFactory_FM.swift */; };
+		E3CE112A20070308006E3A73 /* NERoleAKeFactory_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112920070308006E3A73 /* NERoleAKeFactory_FM.swift */; };
+		E3CE112C20070409006E3A73 /* NERoleGuanYuFactory_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112B20070409006E3A73 /* NERoleGuanYuFactory_FM.swift */; };
+		E3CE112E20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112D20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift */; };
+		E3CE1130200707DC006E3A73 /* NERoleLvBuFactory_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE112F200707DC006E3A73 /* NERoleLvBuFactory_FM.swift */; };
+		E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE113120070AA2006E3A73 /* AbstractFactoryClient.swift */; };
+		E3CE113420070AF5006E3A73 /* 抽象工厂模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE113320070AF5006E3A73 /* 抽象工厂模式.png */; };
 		E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FD20036DD7006BA9ED /* AppDelegate.swift */; };
 		E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FF20036DD7006BA9ED /* ViewController.swift */; };
 		E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F1870120036DD7006BA9ED /* Main.storyboard */; };
@@ -42,6 +56,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3CE111820060D7C006E3A73 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
+		E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodClient.swift; sourceTree = "<group>"; };
+		E3CE111D20070011006E3A73 /* NERole_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_FM.swift; sourceTree = "<group>"; };
+		E3CE111E20070011006E3A73 /* NERoleAKe_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleAKe_FM.swift; sourceTree = "<group>"; };
+		E3CE111F20070011006E3A73 /* NERoleGuanYu_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleGuanYu_FM.swift; sourceTree = "<group>"; };
+		E3CE112020070011006E3A73 /* NERoleLvBu_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleLvBu_FM.swift; sourceTree = "<group>"; };
+		E3CE112120070011006E3A73 /* NERoleXiaoQiao_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleXiaoQiao_FM.swift; sourceTree = "<group>"; };
+		E3CE11272007007B006E3A73 /* NERoleFactory_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleFactory_FM.swift; sourceTree = "<group>"; };
+		E3CE112920070308006E3A73 /* NERoleAKeFactory_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleAKeFactory_FM.swift; sourceTree = "<group>"; };
+		E3CE112B20070409006E3A73 /* NERoleGuanYuFactory_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleGuanYuFactory_FM.swift; sourceTree = "<group>"; };
+		E3CE112D20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleXiaoQiaoFactory_FM.swift; sourceTree = "<group>"; };
+		E3CE112F200707DC006E3A73 /* NERoleLvBuFactory_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleLvBuFactory_FM.swift; sourceTree = "<group>"; };
+		E3CE113120070AA2006E3A73 /* AbstractFactoryClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractFactoryClient.swift; sourceTree = "<group>"; };
+		E3CE113320070AF5006E3A73 /* 抽象工厂模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "抽象工厂模式.png"; sourceTree = "<group>"; };
 		E3F186FA20036DD7006BA9ED /* Design-Pattern-For-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-Pattern-For-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F186FD20036DD7006BA9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F186FF20036DD7006BA9ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +118,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3CE111720060D7C006E3A73 /* 工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11272007007B006E3A73 /* NERoleFactory_FM.swift */,
+				E3CE112920070308006E3A73 /* NERoleAKeFactory_FM.swift */,
+				E3CE112B20070409006E3A73 /* NERoleGuanYuFactory_FM.swift */,
+				E3CE112F200707DC006E3A73 /* NERoleLvBuFactory_FM.swift */,
+				E3CE112D20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift */,
+			);
+			path = "工厂";
+			sourceTree = "<group>";
+		};
+		E3CE111C2006FFAC006E3A73 /* 商品 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE111D20070011006E3A73 /* NERole_FM.swift */,
+				E3CE111E20070011006E3A73 /* NERoleAKe_FM.swift */,
+				E3CE111F20070011006E3A73 /* NERoleGuanYu_FM.swift */,
+				E3CE112020070011006E3A73 /* NERoleLvBu_FM.swift */,
+				E3CE112120070011006E3A73 /* NERoleXiaoQiao_FM.swift */,
+			);
+			path = "商品";
+			sourceTree = "<group>";
+		};
+		E3CE113720070B9F006E3A73 /* 抽象工厂 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "抽象工厂";
+			sourceTree = "<group>";
+		};
+		E3CE113820070B9F006E3A73 /* 角色工厂 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "角色工厂";
+			sourceTree = "<group>";
+		};
+		E3CE113920070B9F006E3A73 /* 角色商品 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "角色商品";
+			sourceTree = "<group>";
+		};
+		E3CE113A20070B9F006E3A73 /* 塔工厂 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "塔工厂";
+			sourceTree = "<group>";
+		};
+		E3CE113B20070B9F006E3A73 /* 塔商品 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "塔商品";
+			sourceTree = "<group>";
+		};
+		E3CE113C20070B9F006E3A73 /* 小兵工厂 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "小兵工厂";
+			sourceTree = "<group>";
+		};
+		E3CE113D20070B9F006E3A73 /* 小兵商品 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "小兵商品";
+			sourceTree = "<group>";
+		};
 		E3F186F120036DD7006BA9ED = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +279,10 @@
 		E3F187842005F66B006BA9ED /* 2.工厂方法模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE111C2006FFAC006E3A73 /* 商品 */,
+				E3CE111720060D7C006E3A73 /* 工厂 */,
+				E3CE111820060D7C006E3A73 /* 工厂方法模式.png */,
+				E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */,
 			);
 			path = "2.工厂方法模式";
 			sourceTree = "<group>";
@@ -185,6 +290,15 @@
 		E3F187852005F66B006BA9ED /* 3.抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE113720070B9F006E3A73 /* 抽象工厂 */,
+				E3CE113820070B9F006E3A73 /* 角色工厂 */,
+				E3CE113A20070B9F006E3A73 /* 塔工厂 */,
+				E3CE113C20070B9F006E3A73 /* 小兵工厂 */,
+				E3CE113920070B9F006E3A73 /* 角色商品 */,
+				E3CE113B20070B9F006E3A73 /* 塔商品 */,
+				E3CE113D20070B9F006E3A73 /* 小兵商品 */,
+				E3CE113320070AF5006E3A73 /* 抽象工厂模式.png */,
+				E3CE113120070AA2006E3A73 /* AbstractFactoryClient.swift */,
 			);
 			path = "3.抽象工厂模式";
 			sourceTree = "<group>";
@@ -456,7 +570,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */,
 				E3F1870820036DD7006BA9ED /* LaunchScreen.storyboard in Resources */,
+				E3CE113420070AF5006E3A73 /* 抽象工厂模式.png in Resources */,
 				E3F1879D2005F690006BA9ED /* 简单工厂模式.png in Resources */,
 				E3F1870520036DD7006BA9ED /* Assets.xcassets in Resources */,
 				E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */,
@@ -484,14 +600,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CE11282007007B006E3A73 /* NERoleFactory_FM.swift in Sources */,
+				E3CE1130200707DC006E3A73 /* NERoleLvBuFactory_FM.swift in Sources */,
 				E3F187A32005FC91006BA9ED /* NERole.swift in Sources */,
+				E3CE112E20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
+				E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
+				E3CE112320070011006E3A73 /* NERoleAKe_FM.swift in Sources */,
+				E3CE112620070011006E3A73 /* NERoleXiaoQiao_FM.swift in Sources */,
+				E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */,
+				E3CE112A20070308006E3A73 /* NERoleAKeFactory_FM.swift in Sources */,
 				E3F187A72005FF7F006BA9ED /* NERoleGuanYu.swift in Sources */,
+				E3CE112C20070409006E3A73 /* NERoleGuanYuFactory_FM.swift in Sources */,
+				E3CE112420070011006E3A73 /* NERoleGuanYu_FM.swift in Sources */,
+				E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */,
 				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
 				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
+				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
 				E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

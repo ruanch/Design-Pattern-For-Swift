@@ -13,6 +13,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     @IBOutlet weak var tableView: UITableView!
     
     var datas = NSArray()
+    var clients = NSArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.tableView.dataSource = self
         
         datas = ["简单工厂模式","工厂方法模式","抽象工厂模式","策略模式"]
+        clients = [SimpleFactoryClient(),FactoryMethodClient()]
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,7 +47,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView .deselectRow(at: indexPath, animated: true)
         
-        let vc = SimpleFactoryClient()
+
+        let vc = clients[indexPath.row] as! UIViewController
         vc.title = String(describing:datas[indexPath.row])
         vc.view.backgroundColor = UIColor.white
         

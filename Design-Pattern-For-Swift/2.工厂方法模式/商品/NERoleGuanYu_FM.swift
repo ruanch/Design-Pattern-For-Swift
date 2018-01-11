@@ -1,5 +1,5 @@
 //
-//  NERoleLvBu.swift
+//  NERoleGuanYu.swift
 //  Design-Pattern-For-Swift
 //
 //  Created by 阮沧晖 on 2018/1/10.
@@ -7,8 +7,8 @@
 //
 
 import UIKit
-//吕布角色
-class NERoleLvBu: NSObject,NERole {
+//关羽角色
+class NERoleGuanYu_FM: NSObject,NERole_FM {
     var name: String = ""
     var price: CGFloat = 0.0
     var magicPoint: CGFloat = 0.0

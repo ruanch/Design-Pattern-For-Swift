@@ -14,7 +14,7 @@ class NERoleFactory: NSObject {
     static func createRole(roleType : String) -> NERole {
         
         let roles = ["阿珂","关羽","小乔","吕布"]
-        let type = roles.index(of: roleType)
+        let type = roles.index(of: roleType)!
         
         switch type {
         case 0:

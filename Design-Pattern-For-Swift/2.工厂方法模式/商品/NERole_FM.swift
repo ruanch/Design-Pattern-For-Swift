@@ -9,7 +9,7 @@
 import UIKit
 
 
-protocol NERole {
+protocol NERole_FM {
     var name:String{ get set }
     var healthPoint:CGFloat{ get set } //血量值
     var magicPoint:CGFloat{ get set } //魔法值

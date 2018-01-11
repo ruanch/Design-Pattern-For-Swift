@@ -10,13 +10,13 @@ import UIKit
 
 //阿珂角色
 class NERoleAKe: NSObject,NERole {
-    
-    var price: CGFloat
-    var magicPoint: CGFloat
-    var healthPoint: CGFloat
+    var name: String = ""
+    var price: CGFloat = 0.0
+    var magicPoint: CGFloat = 0.0
+    var healthPoint: CGFloat = 0.0
     
     func getRoleInfo() -> String {
-        return "血量:"+healthPoint + "  " + "魔法量:" + magicPoint + "购买价格:" + price
+        return "角色名称:\(name) ==> 血量: \(healthPoint)  魔法量:\(magicPoint) 购买价格:\(price)"
     }
     
 }

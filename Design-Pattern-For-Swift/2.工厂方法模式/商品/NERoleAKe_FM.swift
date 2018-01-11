@@ -1,5 +1,5 @@
 //
-//  NERoleLvBu.swift
+//  NERoleAKe.swift
 //  Design-Pattern-For-Swift
 //
 //  Created by 阮沧晖 on 2018/1/10.
@@ -7,15 +7,16 @@
 //
 
 import UIKit
-//吕布角色
-class NERoleLvBu: NSObject,NERole {
+
+//阿珂角色
+class NERoleAKe_FM: NSObject,NERole_FM {
     var name: String = ""
     var price: CGFloat = 0.0
     var magicPoint: CGFloat = 0.0
     var healthPoint: CGFloat = 0.0
     
     func getRoleInfo() -> String {
-         return "角色名称:\(name) ==> 血量: \(healthPoint)  魔法量:\(magicPoint) 购买价格:\(price)"
+        return "角色名称:\(name) ==> 血量: \(healthPoint)  魔法量:\(magicPoint) 购买价格:\(price)"
     }
     
 }
