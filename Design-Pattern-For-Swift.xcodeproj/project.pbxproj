@@ -43,6 +43,12 @@
 		E3CE11862007542F006E3A73 /* GoldStrategyNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11852007542F006E3A73 /* GoldStrategyNormal.swift */; };
 		E3CE118820075465006E3A73 /* GoldStrategyRobate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE118720075465006E3A73 /* GoldStrategyRobate.swift */; };
 		E3CE118A20075499006E3A73 /* GoldStrategyReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE118920075499006E3A73 /* GoldStrategyReturn.swift */; };
+		E3CE118C20075982006E3A73 /* 代理模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE118B20075982006E3A73 /* 代理模式.png */; };
+		E3CE118E20075A04006E3A73 /* ProxyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE118D20075A04006E3A73 /* ProxyClient.swift */; };
+		E3CE119720075ADD006E3A73 /* NEAttackEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE119620075ADD006E3A73 /* NEAttackEnemy.swift */; };
+		E3CE119E20075E8C006E3A73 /* NEGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE119D20075E8C006E3A73 /* NEGame.swift */; };
+		E3CE11A020075EAE006E3A73 /* NEXiaoBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE119F20075EAE006E3A73 /* NEXiaoBin.swift */; };
+		E3CE11A220075FAC006E3A73 /* NEHeroProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11A120075FAC006E3A73 /* NEHeroProxy.swift */; };
 		E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FD20036DD7006BA9ED /* AppDelegate.swift */; };
 		E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FF20036DD7006BA9ED /* ViewController.swift */; };
 		E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F1870120036DD7006BA9ED /* Main.storyboard */; };
@@ -114,6 +120,12 @@
 		E3CE11852007542F006E3A73 /* GoldStrategyNormal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategyNormal.swift; sourceTree = "<group>"; };
 		E3CE118720075465006E3A73 /* GoldStrategyRobate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategyRobate.swift; sourceTree = "<group>"; };
 		E3CE118920075499006E3A73 /* GoldStrategyReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStrategyReturn.swift; sourceTree = "<group>"; };
+		E3CE118B20075982006E3A73 /* 代理模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代理模式.png"; sourceTree = "<group>"; };
+		E3CE118D20075A04006E3A73 /* ProxyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyClient.swift; sourceTree = "<group>"; };
+		E3CE119620075ADD006E3A73 /* NEAttackEnemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEAttackEnemy.swift; sourceTree = "<group>"; };
+		E3CE119D20075E8C006E3A73 /* NEGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGame.swift; sourceTree = "<group>"; };
+		E3CE119F20075EAE006E3A73 /* NEXiaoBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEXiaoBin.swift; sourceTree = "<group>"; };
+		E3CE11A120075FAC006E3A73 /* NEHeroProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEHeroProxy.swift; sourceTree = "<group>"; };
 		E3F186FA20036DD7006BA9ED /* Design-Pattern-For-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-Pattern-For-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F186FD20036DD7006BA9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F186FF20036DD7006BA9ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -370,6 +382,41 @@
 			path = "正常价格";
 			sourceTree = "<group>";
 		};
+		E3CE119320075A82006E3A73 /* 代理 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE119A20075E8C006E3A73 /* 小兵(被代理人) */,
+				E3CE119B20075E8C006E3A73 /* 英雄(代理人) */,
+				E3CE119C20075E8C006E3A73 /* 游戏(代理场景) */,
+				E3CE119620075ADD006E3A73 /* NEAttackEnemy.swift */,
+			);
+			path = "代理";
+			sourceTree = "<group>";
+		};
+		E3CE119A20075E8C006E3A73 /* 小兵(被代理人) */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE119F20075EAE006E3A73 /* NEXiaoBin.swift */,
+			);
+			path = "小兵(被代理人)";
+			sourceTree = "<group>";
+		};
+		E3CE119B20075E8C006E3A73 /* 英雄(代理人) */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11A120075FAC006E3A73 /* NEHeroProxy.swift */,
+			);
+			path = "英雄(代理人)";
+			sourceTree = "<group>";
+		};
+		E3CE119C20075E8C006E3A73 /* 游戏(代理场景) */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE119D20075E8C006E3A73 /* NEGame.swift */,
+			);
+			path = "游戏(代理场景)";
+			sourceTree = "<group>";
+		};
 		E3F186F120036DD7006BA9ED = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +538,9 @@
 		E3F187872005F66B006BA9ED /* 5.代理模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE119320075A82006E3A73 /* 代理 */,
+				E3CE118B20075982006E3A73 /* 代理模式.png */,
+				E3CE118D20075A04006E3A73 /* ProxyClient.swift */,
 			);
 			path = "5.代理模式";
 			sourceTree = "<group>";
@@ -752,6 +802,7 @@
 				E3F1870820036DD7006BA9ED /* LaunchScreen.storyboard in Resources */,
 				E3CE117A2007520D006E3A73 /* 策略模式.png in Resources */,
 				E3CE113420070AF5006E3A73 /* 抽象工厂模式.png in Resources */,
+				E3CE118C20075982006E3A73 /* 代理模式.png in Resources */,
 				E3F1879D2005F690006BA9ED /* 简单工厂模式.png in Resources */,
 				E3F1870520036DD7006BA9ED /* Assets.xcassets in Resources */,
 				E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */,
@@ -783,15 +834,18 @@
 				E3CE1130200707DC006E3A73 /* NERoleLvBuFactory_FM.swift in Sources */,
 				E3CE117220073C82006E3A73 /* NEMobileOperationXiaoBin.swift in Sources */,
 				E3F187A32005FC91006BA9ED /* NERole.swift in Sources */,
+				E3CE11A220075FAC006E3A73 /* NEHeroProxy.swift in Sources */,
 				E3CE112E20070771006E3A73 /* NERoleXiaoQiaoFactory_FM.swift in Sources */,
 				E3CE117020073BB5006E3A73 /* NEPCOperationXiaoBin.swift in Sources */,
 				E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */,
 				E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
 				E3CE118220075385006E3A73 /* GoldContext.swift in Sources */,
+				E3CE119720075ADD006E3A73 /* NEAttackEnemy.swift in Sources */,
 				E3CE1184200753D4006E3A73 /* GoldStrategy.swift in Sources */,
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
+				E3CE118E20075A04006E3A73 /* ProxyClient.swift in Sources */,
 				E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */,
 				E3CE117C20075228006E3A73 /* StrategyClient.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
@@ -800,6 +854,7 @@
 				E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */,
 				E3CE112320070011006E3A73 /* NERoleAKe_FM.swift in Sources */,
 				E3CE112620070011006E3A73 /* NERoleXiaoQiao_FM.swift in Sources */,
+				E3CE11A020075EAE006E3A73 /* NEXiaoBin.swift in Sources */,
 				E3CE118A20075499006E3A73 /* GoldStrategyReturn.swift in Sources */,
 				E3CE114F20070E20006E3A73 /* NERole_AF.swift in Sources */,
 				E3CE118820075465006E3A73 /* GoldStrategyRobate.swift in Sources */,
@@ -818,6 +873,7 @@
 				E3CE11862007542F006E3A73 /* GoldStrategyNormal.swift in Sources */,
 				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
 				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
+				E3CE119E20075E8C006E3A73 /* NEGame.swift in Sources */,
 				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
 				E3CE116C200739CD006E3A73 /* NETower_AF.swift in Sources */,
 				E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */,

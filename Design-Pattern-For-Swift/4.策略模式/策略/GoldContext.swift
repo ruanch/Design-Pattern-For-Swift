@@ -16,7 +16,7 @@ enum GoldType: Int{
 
 class GoldContext: NSObject {
 
-    var stragy: GoldStrategy
+    var stragy: GoldStrategy //相比简单工厂区别，不在客户端里产生实例，在类的属性。
     
     init(type: GoldType){
         switch type {

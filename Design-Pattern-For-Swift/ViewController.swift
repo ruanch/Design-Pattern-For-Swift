@@ -24,8 +24,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         self.tableView.delegate = self
         self.tableView.dataSource = self
         
-        datas = ["简单工厂模式","工厂方法模式","抽象工厂模式","策略模式"]
-        clients = [SimpleFactoryClient(),FactoryMethodClient(),AbstractFactoryClient(),StrategyClient()]
+        datas = ["简单工厂模式","工厂方法模式","抽象工厂模式","策略模式","代理模式"]
+        clients = [SimpleFactoryClient(),FactoryMethodClient(),AbstractFactoryClient(),StrategyClient(),ProxyClient()]
     }
 
     override func didReceiveMemoryWarning() {
