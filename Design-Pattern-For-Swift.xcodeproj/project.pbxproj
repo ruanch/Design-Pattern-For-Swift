@@ -49,6 +49,14 @@
 		E3CE119E20075E8C006E3A73 /* NEGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE119D20075E8C006E3A73 /* NEGame.swift */; };
 		E3CE11A020075EAE006E3A73 /* NEXiaoBin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE119F20075EAE006E3A73 /* NEXiaoBin.swift */; };
 		E3CE11A220075FAC006E3A73 /* NEHeroProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11A120075FAC006E3A73 /* NEHeroProxy.swift */; };
+		E3CE11A6200864A5006E3A73 /* DecoratorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11A5200864A5006E3A73 /* DecoratorClient.swift */; };
+		E3CE11AB2008681B006E3A73 /* 装饰模式.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3CE11A72008681B006E3A73 /* 装饰模式.jpg */; };
+		E3CE11AE20086BDB006E3A73 /* NEHeroComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11AD20086BDB006E3A73 /* NEHeroComponent.swift */; };
+		E3CE11B020086D27006E3A73 /* NEAKeHeroComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11AF20086D27006E3A73 /* NEAKeHeroComponent.swift */; };
+		E3CE11B220086DE8006E3A73 /* NEDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11B120086DE8006E3A73 /* NEDecorator.swift */; };
+		E3CE11B420086F84006E3A73 /* NEDaggerDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11B320086F84006E3A73 /* NEDaggerDecorator.swift */; };
+		E3CE11B62008701E006E3A73 /* NETightsDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11B52008701E006E3A73 /* NETightsDecorator.swift */; };
+		E3CE11B82008707A006E3A73 /* NEShortsDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE11B72008707A006E3A73 /* NEShortsDecorator.swift */; };
 		E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FD20036DD7006BA9ED /* AppDelegate.swift */; };
 		E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F186FF20036DD7006BA9ED /* ViewController.swift */; };
 		E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F1870120036DD7006BA9ED /* Main.storyboard */; };
@@ -126,6 +134,14 @@
 		E3CE119D20075E8C006E3A73 /* NEGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGame.swift; sourceTree = "<group>"; };
 		E3CE119F20075EAE006E3A73 /* NEXiaoBin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEXiaoBin.swift; sourceTree = "<group>"; };
 		E3CE11A120075FAC006E3A73 /* NEHeroProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEHeroProxy.swift; sourceTree = "<group>"; };
+		E3CE11A5200864A5006E3A73 /* DecoratorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorClient.swift; sourceTree = "<group>"; };
+		E3CE11A72008681B006E3A73 /* 装饰模式.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "装饰模式.jpg"; path = "Design-Pattern-For-Swift/6.装饰模式/装饰模式.jpg"; sourceTree = SOURCE_ROOT; };
+		E3CE11AD20086BDB006E3A73 /* NEHeroComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEHeroComponent.swift; sourceTree = "<group>"; };
+		E3CE11AF20086D27006E3A73 /* NEAKeHeroComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEAKeHeroComponent.swift; sourceTree = "<group>"; };
+		E3CE11B120086DE8006E3A73 /* NEDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEDecorator.swift; sourceTree = "<group>"; };
+		E3CE11B320086F84006E3A73 /* NEDaggerDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEDaggerDecorator.swift; sourceTree = "<group>"; };
+		E3CE11B52008701E006E3A73 /* NETightsDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NETightsDecorator.swift; sourceTree = "<group>"; };
+		E3CE11B72008707A006E3A73 /* NEShortsDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEShortsDecorator.swift; sourceTree = "<group>"; };
 		E3F186FA20036DD7006BA9ED /* Design-Pattern-For-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design-Pattern-For-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F186FD20036DD7006BA9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F186FF20036DD7006BA9ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -417,6 +433,35 @@
 			path = "游戏(代理场景)";
 			sourceTree = "<group>";
 		};
+		E3CE11A82008681B006E3A73 /* 装饰 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11AC2008684D006E3A73 /* 装饰前的英雄 */,
+				E3CE11AA2008681B006E3A73 /* 装饰配件 */,
+			);
+			path = "装饰";
+			sourceTree = "<group>";
+		};
+		E3CE11AA2008681B006E3A73 /* 装饰配件 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11B120086DE8006E3A73 /* NEDecorator.swift */,
+				E3CE11B320086F84006E3A73 /* NEDaggerDecorator.swift */,
+				E3CE11B52008701E006E3A73 /* NETightsDecorator.swift */,
+				E3CE11B72008707A006E3A73 /* NEShortsDecorator.swift */,
+			);
+			path = "装饰配件";
+			sourceTree = "<group>";
+		};
+		E3CE11AC2008684D006E3A73 /* 装饰前的英雄 */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE11AD20086BDB006E3A73 /* NEHeroComponent.swift */,
+				E3CE11AF20086D27006E3A73 /* NEAKeHeroComponent.swift */,
+			);
+			path = "装饰前的英雄";
+			sourceTree = "<group>";
+		};
 		E3F186F120036DD7006BA9ED = {
 			isa = PBXGroup;
 			children = (
@@ -548,6 +593,9 @@
 		E3F187882005F66B006BA9ED /* 6.装饰模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E3CE11A82008681B006E3A73 /* 装饰 */,
+				E3CE11A72008681B006E3A73 /* 装饰模式.jpg */,
+				E3CE11A5200864A5006E3A73 /* DecoratorClient.swift */,
 			);
 			path = "6.装饰模式";
 			sourceTree = "<group>";
@@ -806,6 +854,7 @@
 				E3F1879D2005F690006BA9ED /* 简单工厂模式.png in Resources */,
 				E3F1870520036DD7006BA9ED /* Assets.xcassets in Resources */,
 				E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */,
+				E3CE11AB2008681B006E3A73 /* 装饰模式.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,12 +889,15 @@
 				E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */,
 				E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
+				E3CE11B020086D27006E3A73 /* NEAKeHeroComponent.swift in Sources */,
 				E3CE118220075385006E3A73 /* GoldContext.swift in Sources */,
 				E3CE119720075ADD006E3A73 /* NEAttackEnemy.swift in Sources */,
 				E3CE1184200753D4006E3A73 /* GoldStrategy.swift in Sources */,
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
+				E3CE11B220086DE8006E3A73 /* NEDecorator.swift in Sources */,
 				E3CE118E20075A04006E3A73 /* ProxyClient.swift in Sources */,
+				E3CE11A6200864A5006E3A73 /* DecoratorClient.swift in Sources */,
 				E3CE113220070AA2006E3A73 /* AbstractFactoryClient.swift in Sources */,
 				E3CE117C20075228006E3A73 /* StrategyClient.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
@@ -857,6 +909,7 @@
 				E3CE11A020075EAE006E3A73 /* NEXiaoBin.swift in Sources */,
 				E3CE118A20075499006E3A73 /* GoldStrategyReturn.swift in Sources */,
 				E3CE114F20070E20006E3A73 /* NERole_AF.swift in Sources */,
+				E3CE11B420086F84006E3A73 /* NEDaggerDecorator.swift in Sources */,
 				E3CE118820075465006E3A73 /* GoldStrategyRobate.swift in Sources */,
 				E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */,
 				E3CE116220071E46006E3A73 /* NEPCOperationRole.swift in Sources */,
@@ -866,8 +919,10 @@
 				E3CE117820073DCD006E3A73 /* NEMobileOperationTower.swift in Sources */,
 				E3F187A72005FF7F006BA9ED /* NERoleGuanYu.swift in Sources */,
 				E3CE112C20070409006E3A73 /* NERoleGuanYuFactory_FM.swift in Sources */,
+				E3CE11AE20086BDB006E3A73 /* NEHeroComponent.swift in Sources */,
 				E3CE112420070011006E3A73 /* NERoleGuanYu_FM.swift in Sources */,
 				E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */,
+				E3CE11B82008707A006E3A73 /* NEShortsDecorator.swift in Sources */,
 				E3CE116E20073AEA006E3A73 /* NEOperationXiaoBin.swift in Sources */,
 				E3CE116620072131006E3A73 /* NEMobileFactory.swift in Sources */,
 				E3CE11862007542F006E3A73 /* GoldStrategyNormal.swift in Sources */,
@@ -875,6 +930,7 @@
 				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
 				E3CE119E20075E8C006E3A73 /* NEGame.swift in Sources */,
 				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
+				E3CE11B62008701E006E3A73 /* NETightsDecorator.swift in Sources */,
 				E3CE116C200739CD006E3A73 /* NETower_AF.swift in Sources */,
 				E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */,
 			);
