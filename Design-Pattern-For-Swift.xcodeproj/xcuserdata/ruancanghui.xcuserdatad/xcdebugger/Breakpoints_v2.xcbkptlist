@@ -19,5 +19,69 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Design-Pattern-For-Swift/11.&#x72b6;&#x6001;&#x6a21;&#x5f0f;/StateClient.swift"
+            timestampString = "537694452.20485"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Design-Pattern-For-Swift/11.&#x72b6;&#x6001;&#x6a21;&#x5f0f;/&#x72b6;&#x6001;/&#x662f;&#x8c01;&#x53d1;&#x51fa;&#x7684;&#x72b6;&#x6001;(&#x5173;&#x7fbd;)/NEGuanYuContext.swift"
+            timestampString = "537694103.991771"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "walk()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Design-Pattern-For-Swift/11.&#x72b6;&#x6001;&#x6a21;&#x5f0f;/&#x72b6;&#x6001;/&#x8868;&#x73b0;&#x51fa;&#x6765;&#x72b6;&#x6001;(&#x62bd;&#x8c61;&#x63a5;&#x53e3;&#xff09;/&#x5177;&#x4f53;&#x8868;&#x73b0;&#x7684;&#x72b6;&#x6001;/NERunningState.swift"
+            timestampString = "537694298.957096"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "walk(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Design-Pattern-For-Swift/11.&#x72b6;&#x6001;&#x6a21;&#x5f0f;/&#x72b6;&#x6001;/&#x8868;&#x73b0;&#x51fa;&#x6765;&#x72b6;&#x6001;(&#x62bd;&#x8c61;&#x63a5;&#x53e3;&#xff09;/&#x5177;&#x4f53;&#x8868;&#x73b0;&#x7684;&#x72b6;&#x6001;/NERunningState.swift"
+            timestampString = "537694301.698651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "walk(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
