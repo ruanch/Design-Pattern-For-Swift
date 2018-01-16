@@ -36,4 +36,7 @@ class NEGameSetting: NSObject {
     class var sharedInstance2 : NEGameSetting{
         return _SingletonSharedInstance
     }
+    
+    //第四种写法
+    class let sharedInstance3 = NEGameSetting()
 }
