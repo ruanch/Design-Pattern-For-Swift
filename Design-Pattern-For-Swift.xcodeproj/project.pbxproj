@@ -35,6 +35,11 @@
 		E397CFC9200C95A00080B25D /* NEChinesesPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFC8200C95A00080B25D /* NEChinesesPlayer.swift */; };
 		E397CFCB200C965C0080B25D /* NEForeignPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFCA200C965C0080B25D /* NEForeignPlayer.swift */; };
 		E397CFCD200C99740080B25D /* AdapterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFCC200C99740080B25D /* AdapterClient.swift */; };
+		E397CFCF200C9F990080B25D /* MementoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFCE200C9F990080B25D /* MementoClient.swift */; };
+		E397CFD2200C9FA90080B25D /* 备忘录模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E397CFD1200C9FA90080B25D /* 备忘录模式.png */; };
+		E397CFE2200CA8320080B25D /* NECardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFDD200CA8320080B25D /* NECardManager.swift */; };
+		E397CFE3200CA8320080B25D /* NEGameRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFDF200CA8320080B25D /* NEGameRoll.swift */; };
+		E397CFE4200CA8320080B25D /* NEGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFE1200CA8320080B25D /* NEGameCard.swift */; };
 		E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE111820060D7C006E3A73 /* 工厂方法模式.png */; };
 		E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */; };
 		E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111D20070011006E3A73 /* NERole_FM.swift */; };
@@ -159,6 +164,11 @@
 		E397CFC8200C95A00080B25D /* NEChinesesPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEChinesesPlayer.swift; sourceTree = "<group>"; };
 		E397CFCA200C965C0080B25D /* NEForeignPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEForeignPlayer.swift; sourceTree = "<group>"; };
 		E397CFCC200C99740080B25D /* AdapterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdapterClient.swift; sourceTree = "<group>"; };
+		E397CFCE200C9F990080B25D /* MementoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MementoClient.swift; sourceTree = "<group>"; };
+		E397CFD1200C9FA90080B25D /* 备忘录模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "备忘录模式.png"; sourceTree = "<group>"; };
+		E397CFDD200CA8320080B25D /* NECardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NECardManager.swift; sourceTree = "<group>"; };
+		E397CFDF200CA8320080B25D /* NEGameRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGameRoll.swift; sourceTree = "<group>"; };
+		E397CFE1200CA8320080B25D /* NEGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGameCard.swift; sourceTree = "<group>"; };
 		E3CE111820060D7C006E3A73 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
 		E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodClient.swift; sourceTree = "<group>"; };
 		E3CE111D20070011006E3A73 /* NERole_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_FM.swift; sourceTree = "<group>"; };
@@ -426,6 +436,40 @@
 				E397CFC8200C95A00080B25D /* NEChinesesPlayer.swift */,
 			);
 			path = "中国玩家";
+			sourceTree = "<group>";
+		};
+		E397CFD0200C9FA90080B25D /* 备忘录 */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFDC200CA8320080B25D /* 关卡状态管理(Caretaker) */,
+				E397CFDE200CA8320080B25D /* 血王宫的回忆关卡中操作(Originator) */,
+				E397CFE0200CA8320080B25D /* 游戏关卡(Memento) */,
+			);
+			path = "备忘录";
+			sourceTree = "<group>";
+		};
+		E397CFDC200CA8320080B25D /* 关卡状态管理(Caretaker) */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFDD200CA8320080B25D /* NECardManager.swift */,
+			);
+			path = "关卡状态管理(Caretaker)";
+			sourceTree = "<group>";
+		};
+		E397CFDE200CA8320080B25D /* 血王宫的回忆关卡中操作(Originator) */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFDF200CA8320080B25D /* NEGameRoll.swift */,
+			);
+			path = "血王宫的回忆关卡中操作(Originator)";
+			sourceTree = "<group>";
+		};
+		E397CFE0200CA8320080B25D /* 游戏关卡(Memento) */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFE1200CA8320080B25D /* NEGameCard.swift */,
+			);
+			path = "游戏关卡(Memento)";
 			sourceTree = "<group>";
 		};
 		E3CE111720060D7C006E3A73 /* 工厂 */ = {
@@ -970,6 +1014,9 @@
 		E3F1878F2005F66B006BA9ED /* 13.备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E397CFD0200C9FA90080B25D /* 备忘录 */,
+				E397CFD1200C9FA90080B25D /* 备忘录模式.png */,
+				E397CFCE200C9F990080B25D /* MementoClient.swift */,
 			);
 			path = "13.备忘录模式";
 			sourceTree = "<group>";
@@ -1171,6 +1218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E397CFD2200C9FA90080B25D /* 备忘录模式.png in Resources */,
 				E397CFA8200C85390080B25D /* 状态模式结构图.png in Resources */,
 				E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */,
 				E3CE11BC200C5452006E3A73 /* 模板方法模式.png in Resources */,
@@ -1221,6 +1269,7 @@
 				E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */,
 				E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
+				E397CFE4200CA8320080B25D /* NEGameCard.swift in Sources */,
 				E397CFBB200C8C370080B25D /* NETuiState.swift in Sources */,
 				E3CE11B020086D27006E3A73 /* NEAKeHeroComponent.swift in Sources */,
 				E3CE11C7200C5C0B006E3A73 /* FacadeClient.swift in Sources */,
@@ -1232,6 +1281,7 @@
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E397CFC7200C94DD0080B25D /* NEChineseGame.swift in Sources */,
 				E397CFA0200C82EC0080B25D /* NEBaiLiShouYue.swift in Sources */,
+				E397CFE2200CA8320080B25D /* NECardManager.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
 				E3CE11B220086DE8006E3A73 /* NEDecorator.swift in Sources */,
 				E3CE118E20075A04006E3A73 /* ProxyClient.swift in Sources */,
@@ -1244,6 +1294,8 @@
 				E3CE117C20075228006E3A73 /* StrategyClient.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
 				E3CE11D2200C5EEC006E3A73 /* NERoleLayer.swift in Sources */,
+				E397CFE3200CA8320080B25D /* NEGameRoll.swift in Sources */,
+				E397CFCF200C9F990080B25D /* MementoClient.swift in Sources */,
 				E3CE114920070D8A006E3A73 /* NEAbstractFactory.swift in Sources */,
 				E397CFCD200C99740080B25D /* AdapterClient.swift in Sources */,
 				E3CE117420073D32006E3A73 /* NEOperationTower.swift in Sources */,
