@@ -13,16 +13,16 @@ let _SingletonSharedInstance = NEGameSetting()
 class NEGameSetting: NSObject {
 
     //第一种写法
-    class var sharedInstance : NEGameSetting {
-        struct Static{
-            static var onceToken: dispatch_once_t = 0
-            static var instance: NEGameSetting? = nil
-        }
-        dispatch_once(&Static.onceToken){
-            Static.instance = NEGameSetting()
-        }
-        return Static.instance!
-    }
+//    class var sharedInstance : NEGameSetting {
+//        struct Static{
+//            static var onceToken: dispatch_once_t = 0
+//            static var instance: NEGameSetting? = nil
+//        }
+//        dispatch_once(&Static.onceToken){
+//            Static.instance = NEGameSetting()
+//        }
+//        return Static.instance!
+//    }
     
     //第二种写法
     class var  sharedInstance1 : NEGameSetting{
@@ -38,5 +38,5 @@ class NEGameSetting: NSObject {
     }
     
     //第四种写法
-    class let sharedInstance3 = NEGameSetting()
+    //class let sharedInstance3 = NEGameSetting()
 }

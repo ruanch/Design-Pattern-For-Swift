@@ -1,5 +1,5 @@
 //
-//  SingletonClient.swift
+//  BridgeClient.swift
 //  Design-Pattern-For-Swift
 //
 //  Created by 阮沧晖 on 2018/1/16.
@@ -8,17 +8,23 @@
 
 import UIKit
 
-class SingletonClient: UIViewController {
+class BridgeClient: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        //造出角色
+        let nvwaoRole = NENvWaoRole()
         
-        //单例：游戏设置界面一次设置，工程通用
-        print("我叫单例模式，一生只能生一次")
-        let gameSetting = NEGameSetting .sharedInstance1
+        //走哪一路线
+        nvwaoRole.walkingRoute()
+        //有多少栏技能
+        nvwaoRole.skillCount()
+        //属于哪种类型角色
+        nvwaoRole.type()
+        
     }
 
     override func didReceiveMemoryWarning() {
