@@ -40,6 +40,13 @@
 		E397CFE2200CA8320080B25D /* NECardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFDD200CA8320080B25D /* NECardManager.swift */; };
 		E397CFE3200CA8320080B25D /* NEGameRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFDF200CA8320080B25D /* NEGameRoll.swift */; };
 		E397CFE4200CA8320080B25D /* NEGameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFE1200CA8320080B25D /* NEGameCard.swift */; };
+		E397CFE6200D9A7B0080B25D /* CompositeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFE5200D9A7B0080B25D /* CompositeClient.swift */; };
+		E397CFE8200D9A850080B25D /* 组合模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E397CFE7200D9A850080B25D /* 组合模式.png */; };
+		E397CFEE200D9B8F0080B25D /* NEComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFED200D9B8F0080B25D /* NEComponent.swift */; };
+		E397CFF0200D9DE10080B25D /* NEGameSceneComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFEF200D9DE10080B25D /* NEGameSceneComposite.swift */; };
+		E397CFF2200D9F830080B25D /* NESkillSceneComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFF1200D9F830080B25D /* NESkillSceneComposite.swift */; };
+		E397CFF4200DA0590080B25D /* NERoleSceneComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFF3200DA0590080B25D /* NERoleSceneComposite.swift */; };
+		E397CFF6200DA2650080B25D /* NEAkeRoleComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397CFF5200DA2650080B25D /* NEAkeRoleComposite.swift */; };
 		E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE111820060D7C006E3A73 /* 工厂方法模式.png */; };
 		E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */; };
 		E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111D20070011006E3A73 /* NERole_FM.swift */; };
@@ -169,6 +176,13 @@
 		E397CFDD200CA8320080B25D /* NECardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NECardManager.swift; sourceTree = "<group>"; };
 		E397CFDF200CA8320080B25D /* NEGameRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGameRoll.swift; sourceTree = "<group>"; };
 		E397CFE1200CA8320080B25D /* NEGameCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGameCard.swift; sourceTree = "<group>"; };
+		E397CFE5200D9A7B0080B25D /* CompositeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeClient.swift; sourceTree = "<group>"; };
+		E397CFE7200D9A850080B25D /* 组合模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组合模式.png"; sourceTree = "<group>"; };
+		E397CFED200D9B8F0080B25D /* NEComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEComponent.swift; sourceTree = "<group>"; };
+		E397CFEF200D9DE10080B25D /* NEGameSceneComposite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGameSceneComposite.swift; sourceTree = "<group>"; };
+		E397CFF1200D9F830080B25D /* NESkillSceneComposite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NESkillSceneComposite.swift; sourceTree = "<group>"; };
+		E397CFF3200DA0590080B25D /* NERoleSceneComposite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERoleSceneComposite.swift; sourceTree = "<group>"; };
+		E397CFF5200DA2650080B25D /* NEAkeRoleComposite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEAkeRoleComposite.swift; sourceTree = "<group>"; };
 		E3CE111820060D7C006E3A73 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
 		E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodClient.swift; sourceTree = "<group>"; };
 		E3CE111D20070011006E3A73 /* NERole_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_FM.swift; sourceTree = "<group>"; };
@@ -470,6 +484,42 @@
 				E397CFE1200CA8320080B25D /* NEGameCard.swift */,
 			);
 			path = "游戏关卡(Memento)";
+			sourceTree = "<group>";
+		};
+		E397CFE9200D9ADC0080B25D /* 组合 */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFEB200D9ADC0080B25D /* 支叶(没有下一级) */,
+				E397CFEA200D9ADC0080B25D /* 子节点(具体实现) */,
+				E397CFEC200D9ADC0080B25D /* 顶节点(抽象) */,
+			);
+			path = "组合";
+			sourceTree = "<group>";
+		};
+		E397CFEA200D9ADC0080B25D /* 子节点(具体实现) */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFEF200D9DE10080B25D /* NEGameSceneComposite.swift */,
+				E397CFF3200DA0590080B25D /* NERoleSceneComposite.swift */,
+			);
+			path = "子节点(具体实现)";
+			sourceTree = "<group>";
+		};
+		E397CFEB200D9ADC0080B25D /* 支叶(没有下一级) */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFF1200D9F830080B25D /* NESkillSceneComposite.swift */,
+				E397CFF5200DA2650080B25D /* NEAkeRoleComposite.swift */,
+			);
+			path = "支叶(没有下一级)";
+			sourceTree = "<group>";
+		};
+		E397CFEC200D9ADC0080B25D /* 顶节点(抽象) */ = {
+			isa = PBXGroup;
+			children = (
+				E397CFED200D9B8F0080B25D /* NEComponent.swift */,
+			);
+			path = "顶节点(抽象)";
 			sourceTree = "<group>";
 		};
 		E3CE111720060D7C006E3A73 /* 工厂 */ = {
@@ -1024,6 +1074,9 @@
 		E3F187902005F66B006BA9ED /* 14.组合模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E397CFE9200D9ADC0080B25D /* 组合 */,
+				E397CFE7200D9A850080B25D /* 组合模式.png */,
+				E397CFE5200D9A7B0080B25D /* CompositeClient.swift */,
 			);
 			path = "14.组合模式";
 			sourceTree = "<group>";
@@ -1231,6 +1284,7 @@
 				E397CF80200C71D80080B25D /* 建造者模式.png in Resources */,
 				E3CE11C9200C5C13006E3A73 /* 外观模式.png in Resources */,
 				E397CFBF200C91CF0080B25D /* 适配器模式.png in Resources */,
+				E397CFE8200D9A850080B25D /* 组合模式.png in Resources */,
 				E3F1870520036DD7006BA9ED /* Assets.xcassets in Resources */,
 				E3F1870320036DD7006BA9ED /* Main.storyboard in Resources */,
 				E3CE11AB2008681B006E3A73 /* 装饰模式.jpg in Resources */,
@@ -1282,6 +1336,7 @@
 				E397CFC7200C94DD0080B25D /* NEChineseGame.swift in Sources */,
 				E397CFA0200C82EC0080B25D /* NEBaiLiShouYue.swift in Sources */,
 				E397CFE2200CA8320080B25D /* NECardManager.swift in Sources */,
+				E397CFF6200DA2650080B25D /* NEAkeRoleComposite.swift in Sources */,
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
 				E3CE11B220086DE8006E3A73 /* NEDecorator.swift in Sources */,
 				E3CE118E20075A04006E3A73 /* ProxyClient.swift in Sources */,
@@ -1292,6 +1347,7 @@
 				E397CF98200C7EF90080B25D /* NESubject.swift in Sources */,
 				E397CFA4200C85220080B25D /* StateClient.swift in Sources */,
 				E3CE117C20075228006E3A73 /* StrategyClient.swift in Sources */,
+				E397CFF4200DA0590080B25D /* NERoleSceneComposite.swift in Sources */,
 				E3F187A12005FABC006BA9ED /* SimpleFactoryClient.swift in Sources */,
 				E3CE11D2200C5EEC006E3A73 /* NERoleLayer.swift in Sources */,
 				E397CFE3200CA8320080B25D /* NEGameRoll.swift in Sources */,
@@ -1300,6 +1356,7 @@
 				E397CFCD200C99740080B25D /* AdapterClient.swift in Sources */,
 				E3CE117420073D32006E3A73 /* NEOperationTower.swift in Sources */,
 				E397CFB7200C8BD40080B25D /* NEDingState.swift in Sources */,
+				E397CFF2200D9F830080B25D /* NESkillSceneComposite.swift in Sources */,
 				E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */,
 				E397CF9E200C816A0080B25D /* NEEnemyCamingSubject.swift in Sources */,
 				E3CE11D4200C5EFB006E3A73 /* NEMapLayer.swift in Sources */,
@@ -1327,6 +1384,7 @@
 				E3CE11C3200C578D006E3A73 /* NEDistributionMingWenA.swift in Sources */,
 				E397CFC9200C95A00080B25D /* NEChinesesPlayer.swift in Sources */,
 				E3CE117820073DCD006E3A73 /* NEMobileOperationTower.swift in Sources */,
+				E397CFF0200D9DE10080B25D /* NEGameSceneComposite.swift in Sources */,
 				E3F187A72005FF7F006BA9ED /* NERoleGuanYu.swift in Sources */,
 				E3CE112C20070409006E3A73 /* NERoleGuanYuFactory_FM.swift in Sources */,
 				E3CE11C5200C57D0006E3A73 /* NEDistributionMingWenB.swift in Sources */,
@@ -1347,7 +1405,9 @@
 				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
 				E3CE11B62008701E006E3A73 /* NETightsDecorator.swift in Sources */,
 				E3CE116C200739CD006E3A73 /* NETower_AF.swift in Sources */,
+				E397CFEE200D9B8F0080B25D /* NEComponent.swift in Sources */,
 				E3CE11D6200C5F21006E3A73 /* NEOperationLayer.swift in Sources */,
+				E397CFE6200D9A7B0080B25D /* CompositeClient.swift in Sources */,
 				E3F186FE20036DD7006BA9ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
