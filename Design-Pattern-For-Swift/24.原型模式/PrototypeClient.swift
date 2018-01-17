@@ -24,6 +24,7 @@ class PrototypeClient: UIViewController {
         let suiwuku4 = suiwuku.clone()
         let suiwuku5 = suiwuku.clone()
         
+        print("1号:\(suiwuku),2号:\(suiwuku2),3号:\(suiwuku3),4号:\(suiwuku4),5号:\(suiwuku5)")
         print("==============敌方================")
         //敌方
         let zhongkui = NEZhongKuiRole(name: "钟馗")
@@ -32,6 +33,7 @@ class PrototypeClient: UIViewController {
         let zhongkui4 = zhongkui.clone()
         let zhongkui5 = zhongkui.clone()
     
+        print("1号:\(zhongkui),2号:\(zhongkui2),3号:\(zhongkui3),4号:\(zhongkui4),5号:\(zhongkui5)")
     }
 
     override func didReceiveMemoryWarning() {
