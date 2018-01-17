@@ -106,6 +106,11 @@
 		E397D0AE200EFCFE0080B25D /* NESuccessAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0AD200EFCFE0080B25D /* NESuccessAction.swift */; };
 		E397D0B0200EFD1F0080B25D /* NEKillAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0AF200EFD1F0080B25D /* NEKillAction.swift */; };
 		E397D0B2200EFD490080B25D /* NEObjectStucture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0B1200EFD490080B25D /* NEObjectStucture.swift */; };
+		E397D0B5200F020E0080B25D /* 原型模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E397D0B4200F020E0080B25D /* 原型模式.png */; };
+		E397D0B9200F02510080B25D /* PrototypeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0B8200F02510080B25D /* PrototypeClient.swift */; };
+		E397D0BE200F18410080B25D /* NERolePrototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0BD200F18410080B25D /* NERolePrototype.swift */; };
+		E397D0C0200F198B0080B25D /* NESuiWuKuRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0BF200F198B0080B25D /* NESuiWuKuRole.swift */; };
+		E397D0C2200F1AA80080B25D /* NEZhongKuiRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0C1200F1AA80080B25D /* NEZhongKuiRole.swift */; };
 		E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE111820060D7C006E3A73 /* 工厂方法模式.png */; };
 		E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */; };
 		E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111D20070011006E3A73 /* NERole_FM.swift */; };
@@ -301,6 +306,11 @@
 		E397D0AD200EFCFE0080B25D /* NESuccessAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NESuccessAction.swift; sourceTree = "<group>"; };
 		E397D0AF200EFD1F0080B25D /* NEKillAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEKillAction.swift; sourceTree = "<group>"; };
 		E397D0B1200EFD490080B25D /* NEObjectStucture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEObjectStucture.swift; sourceTree = "<group>"; };
+		E397D0B4200F020E0080B25D /* 原型模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "原型模式.png"; sourceTree = "<group>"; };
+		E397D0B8200F02510080B25D /* PrototypeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeClient.swift; sourceTree = "<group>"; };
+		E397D0BD200F18410080B25D /* NERolePrototype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERolePrototype.swift; sourceTree = "<group>"; };
+		E397D0BF200F198B0080B25D /* NESuiWuKuRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NESuiWuKuRole.swift; sourceTree = "<group>"; };
+		E397D0C1200F1AA80080B25D /* NEZhongKuiRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEZhongKuiRole.swift; sourceTree = "<group>"; };
 		E3CE111820060D7C006E3A73 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
 		E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodClient.swift; sourceTree = "<group>"; };
 		E3CE111D20070011006E3A73 /* NERole_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_FM.swift; sourceTree = "<group>"; };
@@ -1104,6 +1114,40 @@
 			path = "被杀死的时候";
 			sourceTree = "<group>";
 		};
+		E397D0B3200F020E0080B25D /* 原型 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D0BA200F173F0080B25D /* 克隆大战 */,
+			);
+			path = "原型";
+			sourceTree = "<group>";
+		};
+		E397D0BA200F173F0080B25D /* 克隆大战 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D0BB200F173F0080B25D /* 五个孙悟空 */,
+				E397D0BC200F173F0080B25D /* 五个钟馗 */,
+				E397D0BD200F18410080B25D /* NERolePrototype.swift */,
+			);
+			path = "克隆大战";
+			sourceTree = "<group>";
+		};
+		E397D0BB200F173F0080B25D /* 五个孙悟空 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D0BF200F198B0080B25D /* NESuiWuKuRole.swift */,
+			);
+			path = "五个孙悟空";
+			sourceTree = "<group>";
+		};
+		E397D0BC200F173F0080B25D /* 五个钟馗 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D0C1200F1AA80080B25D /* NEZhongKuiRole.swift */,
+			);
+			path = "五个钟馗";
+			sourceTree = "<group>";
+		};
 		E3CE111720060D7C006E3A73 /* 工厂 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1756,6 +1800,9 @@
 		E3F1879A2005F66B006BA9ED /* 24.原型模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D0B3200F020E0080B25D /* 原型 */,
+				E397D0B4200F020E0080B25D /* 原型模式.png */,
+				E397D0B8200F02510080B25D /* PrototypeClient.swift */,
 			);
 			path = "24.原型模式";
 			sourceTree = "<group>";
@@ -1886,6 +1933,7 @@
 				E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */,
 				E3CE11BC200C5452006E3A73 /* 模板方法模式.png in Resources */,
 				E397D02E200DDE8D0080B25D /* 命令模式.png in Resources */,
+				E397D0B5200F020E0080B25D /* 原型模式.png in Resources */,
 				E397D091200EF87E0080B25D /* 访问者模式.png in Resources */,
 				E3F1870820036DD7006BA9ED /* LaunchScreen.storyboard in Resources */,
 				E397D07D200EF1110080B25D /* 解释器模式.png in Resources */,
@@ -2023,6 +2071,7 @@
 				E3CE116220071E46006E3A73 /* NEPCOperationRole.swift in Sources */,
 				E3CE117620073DB4006E3A73 /* NEPCOperationTower.swift in Sources */,
 				E3CE112A20070308006E3A73 /* NERoleAKeFactory_FM.swift in Sources */,
+				E397D0B9200F02510080B25D /* PrototypeClient.swift in Sources */,
 				E3CE11682007215C006E3A73 /* NEPCFactory.swift in Sources */,
 				E397CFC4200C940E0080B25D /* NEAdapter.swift in Sources */,
 				E3CE11C3200C578D006E3A73 /* NEDistributionMingWenA.swift in Sources */,
@@ -2036,8 +2085,10 @@
 				E3CE11AE20086BDB006E3A73 /* NEHeroComponent.swift in Sources */,
 				E397CF9A200C7F6D0080B25D /* NEObserver.swift in Sources */,
 				E397D039200DE4F10080B25D /* NEReleaseSkillCommand.swift in Sources */,
+				E397D0BE200F18410080B25D /* NERolePrototype.swift in Sources */,
 				E397CFAE200C86780080B25D /* NEState.swift in Sources */,
 				E397D003200DA72D0080B25D /* NEAggregate.swift in Sources */,
+				E397D0C0200F198B0080B25D /* NESuiWuKuRole.swift in Sources */,
 				E397D01F200DD3B40080B25D /* NERoleAbstraction.swift in Sources */,
 				E3CE112420070011006E3A73 /* NERoleGuanYu_FM.swift in Sources */,
 				E397D009200DA8B10080B25D /* NERoleIterator.swift in Sources */,
@@ -2053,6 +2104,7 @@
 				E397D06A200EE5C40080B25D /* FlyweightClient.swift in Sources */,
 				E397D0B0200EFD1F0080B25D /* NEKillAction.swift in Sources */,
 				E397D047200DEFDD0080B25D /* NEGradeHandler.swift in Sources */,
+				E397D0C2200F1AA80080B25D /* NEZhongKuiRole.swift in Sources */,
 				E397D03D200DE7C50080B25D /* NESummoner.swift in Sources */,
 				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
 				E397D0AC200EFCD00080B25D /* NEFailAction.swift in Sources */,
