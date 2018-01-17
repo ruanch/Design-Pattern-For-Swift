@@ -98,6 +98,14 @@
 		E397D08C200EF5AA0080B25D /* NEGuanYuExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D08B200EF5AA0080B25D /* NEGuanYuExpression.swift */; };
 		E397D08E200EF8760080B25D /* VisitorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D08D200EF8760080B25D /* VisitorClient.swift */; };
 		E397D091200EF87E0080B25D /* 访问者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E397D090200EF87E0080B25D /* 访问者模式.png */; };
+		E397D0A4200EFBFD0080B25D /* NEPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0A3200EFBFD0080B25D /* NEPlayer.swift */; };
+		E397D0A6200EFC180080B25D /* NEAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0A5200EFC180080B25D /* NEAction.swift */; };
+		E397D0A8200EFC9C0080B25D /* NEBoyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0A7200EFC9C0080B25D /* NEBoyPlayer.swift */; };
+		E397D0AA200EFCAB0080B25D /* NEGirlPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0A9200EFCAB0080B25D /* NEGirlPlayer.swift */; };
+		E397D0AC200EFCD00080B25D /* NEFailAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0AB200EFCD00080B25D /* NEFailAction.swift */; };
+		E397D0AE200EFCFE0080B25D /* NESuccessAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0AD200EFCFE0080B25D /* NESuccessAction.swift */; };
+		E397D0B0200EFD1F0080B25D /* NEKillAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0AF200EFD1F0080B25D /* NEKillAction.swift */; };
+		E397D0B2200EFD490080B25D /* NEObjectStucture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D0B1200EFD490080B25D /* NEObjectStucture.swift */; };
 		E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE111820060D7C006E3A73 /* 工厂方法模式.png */; };
 		E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */; };
 		E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111D20070011006E3A73 /* NERole_FM.swift */; };
@@ -285,6 +293,14 @@
 		E397D08B200EF5AA0080B25D /* NEGuanYuExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGuanYuExpression.swift; sourceTree = "<group>"; };
 		E397D08D200EF8760080B25D /* VisitorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorClient.swift; sourceTree = "<group>"; };
 		E397D090200EF87E0080B25D /* 访问者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "访问者模式.png"; sourceTree = "<group>"; };
+		E397D0A3200EFBFD0080B25D /* NEPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEPlayer.swift; sourceTree = "<group>"; };
+		E397D0A5200EFC180080B25D /* NEAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEAction.swift; sourceTree = "<group>"; };
+		E397D0A7200EFC9C0080B25D /* NEBoyPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEBoyPlayer.swift; sourceTree = "<group>"; };
+		E397D0A9200EFCAB0080B25D /* NEGirlPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEGirlPlayer.swift; sourceTree = "<group>"; };
+		E397D0AB200EFCD00080B25D /* NEFailAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEFailAction.swift; sourceTree = "<group>"; };
+		E397D0AD200EFCFE0080B25D /* NESuccessAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NESuccessAction.swift; sourceTree = "<group>"; };
+		E397D0AF200EFD1F0080B25D /* NEKillAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEKillAction.swift; sourceTree = "<group>"; };
+		E397D0B1200EFD490080B25D /* NEObjectStucture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEObjectStucture.swift; sourceTree = "<group>"; };
 		E3CE111820060D7C006E3A73 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
 		E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodClient.swift; sourceTree = "<group>"; };
 		E3CE111D20070011006E3A73 /* NERole_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_FM.swift; sourceTree = "<group>"; };
@@ -1004,70 +1020,86 @@
 		E397D08F200EF87E0080B25D /* 访问者 */ = {
 			isa = PBXGroup;
 			children = (
-				E397D092200EFA600080B25D /* 玩家 */,
-				E397D095200EFA600080B25D /* 状态 */,
+				E397D09A200EFBDD0080B25D /* 管理者(ObjectStructure) */,
+				E397D09B200EFBDD0080B25D /* 玩家(Element) */,
+				E397D09E200EFBDD0080B25D /* 状态(Vistor) */,
 			);
 			path = "访问者";
 			sourceTree = "<group>";
 		};
-		E397D092200EFA600080B25D /* 玩家 */ = {
+		E397D09A200EFBDD0080B25D /* 管理者(ObjectStructure) */ = {
 			isa = PBXGroup;
 			children = (
-				E397D093200EFA600080B25D /* 抽象 */,
-				E397D094200EFA600080B25D /* 男玩家和女玩家 */,
+				E397D0B1200EFD490080B25D /* NEObjectStucture.swift */,
 			);
-			path = "玩家";
+			path = "管理者(ObjectStructure)";
 			sourceTree = "<group>";
 		};
-		E397D093200EFA600080B25D /* 抽象 */ = {
+		E397D09B200EFBDD0080B25D /* 玩家(Element) */ = {
 			isa = PBXGroup;
 			children = (
+				E397D09C200EFBDD0080B25D /* 抽象 */,
+				E397D09D200EFBDD0080B25D /* 男玩家和女玩家 */,
+			);
+			path = "玩家(Element)";
+			sourceTree = "<group>";
+		};
+		E397D09C200EFBDD0080B25D /* 抽象 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D0A3200EFBFD0080B25D /* NEPlayer.swift */,
 			);
 			path = "抽象";
 			sourceTree = "<group>";
 		};
-		E397D094200EFA600080B25D /* 男玩家和女玩家 */ = {
+		E397D09D200EFBDD0080B25D /* 男玩家和女玩家 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D0A7200EFC9C0080B25D /* NEBoyPlayer.swift */,
+				E397D0A9200EFCAB0080B25D /* NEGirlPlayer.swift */,
 			);
 			path = "男玩家和女玩家";
 			sourceTree = "<group>";
 		};
-		E397D095200EFA600080B25D /* 状态 */ = {
+		E397D09E200EFBDD0080B25D /* 状态(Vistor) */ = {
 			isa = PBXGroup;
 			children = (
-				E397D096200EFA600080B25D /* 失败的时候 */,
-				E397D097200EFA600080B25D /* 抽象 */,
-				E397D098200EFA600080B25D /* 胜利的时候 */,
-				E397D099200EFA600080B25D /* 被杀死的时候 */,
+				E397D09F200EFBDD0080B25D /* 失败的时候 */,
+				E397D0A0200EFBDD0080B25D /* 抽象 */,
+				E397D0A1200EFBDD0080B25D /* 胜利的时候 */,
+				E397D0A2200EFBDD0080B25D /* 被杀死的时候 */,
 			);
-			path = "状态";
+			path = "状态(Vistor)";
 			sourceTree = "<group>";
 		};
-		E397D096200EFA600080B25D /* 失败的时候 */ = {
+		E397D09F200EFBDD0080B25D /* 失败的时候 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D0AB200EFCD00080B25D /* NEFailAction.swift */,
 			);
 			path = "失败的时候";
 			sourceTree = "<group>";
 		};
-		E397D097200EFA600080B25D /* 抽象 */ = {
+		E397D0A0200EFBDD0080B25D /* 抽象 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D0A5200EFC180080B25D /* NEAction.swift */,
 			);
 			path = "抽象";
 			sourceTree = "<group>";
 		};
-		E397D098200EFA600080B25D /* 胜利的时候 */ = {
+		E397D0A1200EFBDD0080B25D /* 胜利的时候 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D0AD200EFCFE0080B25D /* NESuccessAction.swift */,
 			);
 			path = "胜利的时候";
 			sourceTree = "<group>";
 		};
-		E397D099200EFA600080B25D /* 被杀死的时候 */ = {
+		E397D0A2200EFBDD0080B25D /* 被杀死的时候 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D0AF200EFD1F0080B25D /* NEKillAction.swift */,
 			);
 			path = "被杀死的时候";
 			sourceTree = "<group>";
@@ -1910,10 +1942,12 @@
 				E3CE116420072040006E3A73 /* NEMobileOperationRole.swift in Sources */,
 				E3CE116A2007225B006E3A73 /* NEXiaoBin_AF.swift in Sources */,
 				E3F187AD200602F1006BA9ED /* NERoleAKe.swift in Sources */,
+				E397D0A6200EFC180080B25D /* NEAction.swift in Sources */,
 				E397CFE4200CA8320080B25D /* NEGameCard.swift in Sources */,
 				E397CFF8200DA5640080B25D /* IteratorClient.swift in Sources */,
 				E397D023200DD4FF0080B25D /* NEWalkRoute.swift in Sources */,
 				E397CFBB200C8C370080B25D /* NETuiState.swift in Sources */,
+				E397D0B2200EFD490080B25D /* NEObjectStucture.swift in Sources */,
 				E3CE11B020086D27006E3A73 /* NEAKeHeroComponent.swift in Sources */,
 				E397D08A200EF4C50080B25D /* NEAkeExpression.swift in Sources */,
 				E3CE11C7200C5C0B006E3A73 /* FacadeClient.swift in Sources */,
@@ -1962,6 +1996,7 @@
 				E397D021200DD3E20080B25D /* NEAttribute.swift in Sources */,
 				E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */,
 				E397CF9E200C816A0080B25D /* NEEnemyCamingSubject.swift in Sources */,
+				E397D0AE200EFCFE0080B25D /* NESuccessAction.swift in Sources */,
 				E3CE11D4200C5EFB006E3A73 /* NEMapLayer.swift in Sources */,
 				E3CE112320070011006E3A73 /* NERoleAKe_FM.swift in Sources */,
 				E3CE112620070011006E3A73 /* NERoleXiaoQiao_FM.swift in Sources */,
@@ -1969,6 +2004,7 @@
 				E397CF89200C736A0080B25D /* NERoleBuilder.swift in Sources */,
 				E397CFB5200C88ED0080B25D /* NERunningState.swift in Sources */,
 				E397CFB3200C881C0080B25D /* NENormalState.swift in Sources */,
+				E397D0A8200EFC9C0080B25D /* NEBoyPlayer.swift in Sources */,
 				E397D05E200DF7FB0080B25D /* NEMediator.swift in Sources */,
 				E3CE11A020075EAE006E3A73 /* NEXiaoBin.swift in Sources */,
 				E397D04F200DF2550080B25D /* NEBaiYingHandler.swift in Sources */,
@@ -2011,15 +2047,19 @@
 				E3CE11B82008707A006E3A73 /* NEShortsDecorator.swift in Sources */,
 				E3CE116E20073AEA006E3A73 /* NEOperationXiaoBin.swift in Sources */,
 				E3CE116620072131006E3A73 /* NEMobileFactory.swift in Sources */,
+				E397D0A4200EFBFD0080B25D /* NEPlayer.swift in Sources */,
 				E3CE11862007542F006E3A73 /* GoldStrategyNormal.swift in Sources */,
 				E397CFB9200C8C250080B25D /* NECaiState.swift in Sources */,
 				E397D06A200EE5C40080B25D /* FlyweightClient.swift in Sources */,
+				E397D0B0200EFD1F0080B25D /* NEKillAction.swift in Sources */,
 				E397D047200DEFDD0080B25D /* NEGradeHandler.swift in Sources */,
 				E397D03D200DE7C50080B25D /* NESummoner.swift in Sources */,
 				E3F187A920060082006BA9ED /* NERoleXiaoQiao.swift in Sources */,
+				E397D0AC200EFCD00080B25D /* NEFailAction.swift in Sources */,
 				E3F187A52005FEAE006BA9ED /* NERoleFactory.swift in Sources */,
 				E3CE119E20075E8C006E3A73 /* NEGame.swift in Sources */,
 				E397D03F200DED340080B25D /* ChainOfResponsibilityClient.swift in Sources */,
+				E397D0AA200EFCAB0080B25D /* NEGirlPlayer.swift in Sources */,
 				E397D08E200EF8760080B25D /* VisitorClient.swift in Sources */,
 				E397D005200DA7490080B25D /* NEIterator.swift in Sources */,
 				E3CE112520070011006E3A73 /* NERoleLvBu_FM.swift in Sources */,
