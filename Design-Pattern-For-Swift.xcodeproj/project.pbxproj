@@ -78,6 +78,13 @@
 		E397D04B200DF0C00080B25D /* NEQingTongHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D04A200DF0C00080B25D /* NEQingTongHandler.swift */; };
 		E397D04D200DF1F70080B25D /* NEHuangJinHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D04C200DF1F70080B25D /* NEHuangJinHandler.swift */; };
 		E397D04F200DF2550080B25D /* NEBaiYingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D04E200DF2550080B25D /* NEBaiYingHandler.swift */; };
+		E397D054200DF5ED0080B25D /* 中介者模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E397D053200DF5ED0080B25D /* 中介者模式.png */; };
+		E397D056200DF6120080B25D /* MediatorClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D055200DF6120080B25D /* MediatorClient.swift */; };
+		E397D05E200DF7FB0080B25D /* NEMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D05D200DF7FB0080B25D /* NEMediator.swift */; };
+		E397D060200DF8400080B25D /* NESummonerColleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D05F200DF8400080B25D /* NESummonerColleague.swift */; };
+		E397D062200DF8AE0080B25D /* NEChatMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D061200DF8AE0080B25D /* NEChatMediator.swift */; };
+		E397D064200DF8D70080B25D /* NEADCSummonerColleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D063200DF8D70080B25D /* NEADCSummonerColleague.swift */; };
+		E397D066200DF8FB0080B25D /* NEFuZhuSummonerColleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = E397D065200DF8FB0080B25D /* NEFuZhuSummonerColleague.swift */; };
 		E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CE111820060D7C006E3A73 /* 工厂方法模式.png */; };
 		E3CE111B20060DE5006E3A73 /* FactoryMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */; };
 		E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE111D20070011006E3A73 /* NERole_FM.swift */; };
@@ -245,6 +252,13 @@
 		E397D04A200DF0C00080B25D /* NEQingTongHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEQingTongHandler.swift; sourceTree = "<group>"; };
 		E397D04C200DF1F70080B25D /* NEHuangJinHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEHuangJinHandler.swift; sourceTree = "<group>"; };
 		E397D04E200DF2550080B25D /* NEBaiYingHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEBaiYingHandler.swift; sourceTree = "<group>"; };
+		E397D053200DF5ED0080B25D /* 中介者模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中介者模式.png"; sourceTree = "<group>"; };
+		E397D055200DF6120080B25D /* MediatorClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediatorClient.swift; sourceTree = "<group>"; };
+		E397D05D200DF7FB0080B25D /* NEMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEMediator.swift; sourceTree = "<group>"; };
+		E397D05F200DF8400080B25D /* NESummonerColleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NESummonerColleague.swift; sourceTree = "<group>"; };
+		E397D061200DF8AE0080B25D /* NEChatMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEChatMediator.swift; sourceTree = "<group>"; };
+		E397D063200DF8D70080B25D /* NEADCSummonerColleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEADCSummonerColleague.swift; sourceTree = "<group>"; };
+		E397D065200DF8FB0080B25D /* NEFuZhuSummonerColleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NEFuZhuSummonerColleague.swift; sourceTree = "<group>"; };
 		E3CE111820060D7C006E3A73 /* 工厂方法模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "工厂方法模式.png"; sourceTree = "<group>"; };
 		E3CE111A20060DE5006E3A73 /* FactoryMethodClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryMethodClient.swift; sourceTree = "<group>"; };
 		E3CE111D20070011006E3A73 /* NERole_FM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NERole_FM.swift; sourceTree = "<group>"; };
@@ -814,6 +828,66 @@
 				E397D048200DEFF70080B25D /* NEStar.swift */,
 			);
 			path = "星星";
+			sourceTree = "<group>";
+		};
+		E397D052200DF5ED0080B25D /* 中介者 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D057200DF7BF0080B25D /* 聊天栏(Mediator) */,
+				E397D058200DF7BF0080B25D /* 召唤师(Colleague) */,
+			);
+			path = "中介者";
+			sourceTree = "<group>";
+		};
+		E397D057200DF7BF0080B25D /* 聊天栏(Mediator) */ = {
+			isa = PBXGroup;
+			children = (
+				E397D05B200DF7E70080B25D /* 抽象 */,
+				E397D05C200DF7E70080B25D /* 具体实现 */,
+			);
+			path = "聊天栏(Mediator)";
+			sourceTree = "<group>";
+		};
+		E397D058200DF7BF0080B25D /* 召唤师(Colleague) */ = {
+			isa = PBXGroup;
+			children = (
+				E397D059200DF7BF0080B25D /* 打ADC召唤师 */,
+				E397D05A200DF7BF0080B25D /* 打辅助召唤师 */,
+				E397D05F200DF8400080B25D /* NESummonerColleague.swift */,
+			);
+			path = "召唤师(Colleague)";
+			sourceTree = "<group>";
+		};
+		E397D059200DF7BF0080B25D /* 打ADC召唤师 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D063200DF8D70080B25D /* NEADCSummonerColleague.swift */,
+			);
+			path = "打ADC召唤师";
+			sourceTree = "<group>";
+		};
+		E397D05A200DF7BF0080B25D /* 打辅助召唤师 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D065200DF8FB0080B25D /* NEFuZhuSummonerColleague.swift */,
+			);
+			path = "打辅助召唤师";
+			sourceTree = "<group>";
+		};
+		E397D05B200DF7E70080B25D /* 抽象 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D05D200DF7FB0080B25D /* NEMediator.swift */,
+			);
+			path = "抽象";
+			sourceTree = "<group>";
+		};
+		E397D05C200DF7E70080B25D /* 具体实现 */ = {
+			isa = PBXGroup;
+			children = (
+				E397D061200DF8AE0080B25D /* NEChatMediator.swift */,
+			);
+			path = "具体实现";
 			sourceTree = "<group>";
 		};
 		E3CE111720060D7C006E3A73 /* 工厂 */ = {
@@ -1428,6 +1502,9 @@
 		E3F187962005F66B006BA9ED /* 20.中介者模式 */ = {
 			isa = PBXGroup;
 			children = (
+				E397D052200DF5ED0080B25D /* 中介者 */,
+				E397D053200DF5ED0080B25D /* 中介者模式.png */,
+				E397D055200DF6120080B25D /* MediatorClient.swift */,
 			);
 			path = "20.中介者模式";
 			sourceTree = "<group>";
@@ -1581,6 +1658,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E397CFD2200C9FA90080B25D /* 备忘录模式.png in Resources */,
+				E397D054200DF5ED0080B25D /* 中介者模式.png in Resources */,
 				E397CFA8200C85390080B25D /* 状态模式结构图.png in Resources */,
 				E3CE111920060D7C006E3A73 /* 工厂方法模式.png in Resources */,
 				E3CE11BC200C5452006E3A73 /* 模板方法模式.png in Resources */,
@@ -1649,6 +1727,7 @@
 				E3CE118220075385006E3A73 /* GoldContext.swift in Sources */,
 				E3CE119720075ADD006E3A73 /* NEAttackEnemy.swift in Sources */,
 				E3CE1184200753D4006E3A73 /* GoldStrategy.swift in Sources */,
+				E397D056200DF6120080B25D /* MediatorClient.swift in Sources */,
 				E3F187AB200602A5006BA9ED /* NERoleLvBu.swift in Sources */,
 				E397CFC7200C94DD0080B25D /* NEChineseGame.swift in Sources */,
 				E397CFA0200C82EC0080B25D /* NEBaiLiShouYue.swift in Sources */,
@@ -1658,6 +1737,7 @@
 				E3F1870020036DD7006BA9ED /* ViewController.swift in Sources */,
 				E3CE11B220086DE8006E3A73 /* NEDecorator.swift in Sources */,
 				E3CE118E20075A04006E3A73 /* ProxyClient.swift in Sources */,
+				E397D062200DF8AE0080B25D /* NEChatMediator.swift in Sources */,
 				E397D035200DE4460080B25D /* NECommand.swift in Sources */,
 				E397CFA2200C83310080B25D /* NEFuZhu.swift in Sources */,
 				E397CF7E200C62E60080B25D /* BuilderClient.swift in Sources */,
@@ -1681,6 +1761,7 @@
 				E397CFB7200C8BD40080B25D /* NEDingState.swift in Sources */,
 				E397D027200DD5210080B25D /* NERoleType.swift in Sources */,
 				E397CFF2200D9F830080B25D /* NESkillSceneComposite.swift in Sources */,
+				E397D064200DF8D70080B25D /* NEADCSummonerColleague.swift in Sources */,
 				E397D021200DD3E20080B25D /* NEAttribute.swift in Sources */,
 				E3CE116020071829006E3A73 /* NEOperationRole.swift in Sources */,
 				E397CF9E200C816A0080B25D /* NEEnemyCamingSubject.swift in Sources */,
@@ -1691,6 +1772,7 @@
 				E397CF89200C736A0080B25D /* NERoleBuilder.swift in Sources */,
 				E397CFB5200C88ED0080B25D /* NERunningState.swift in Sources */,
 				E397CFB3200C881C0080B25D /* NENormalState.swift in Sources */,
+				E397D05E200DF7FB0080B25D /* NEMediator.swift in Sources */,
 				E3CE11A020075EAE006E3A73 /* NEXiaoBin.swift in Sources */,
 				E397D04F200DF2550080B25D /* NEBaiYingHandler.swift in Sources */,
 				E3CE118A20075499006E3A73 /* GoldStrategyReturn.swift in Sources */,
@@ -1699,7 +1781,9 @@
 				E397CFCB200C965C0080B25D /* NEForeignPlayer.swift in Sources */,
 				E3CE118820075465006E3A73 /* GoldStrategyRobate.swift in Sources */,
 				E3CE112220070011006E3A73 /* NERole_FM.swift in Sources */,
+				E397D066200DF8FB0080B25D /* NEFuZhuSummonerColleague.swift in Sources */,
 				E397CFB0200C86E10080B25D /* NEGuanYuContext.swift in Sources */,
+				E397D060200DF8400080B25D /* NESummonerColleague.swift in Sources */,
 				E3CE11BA200C540B006E3A73 /* TemplateMethodClient.swift in Sources */,
 				E3CE11C1200C5583006E3A73 /* NEMingWen.swift in Sources */,
 				E3CE116220071E46006E3A73 /* NEPCOperationRole.swift in Sources */,
