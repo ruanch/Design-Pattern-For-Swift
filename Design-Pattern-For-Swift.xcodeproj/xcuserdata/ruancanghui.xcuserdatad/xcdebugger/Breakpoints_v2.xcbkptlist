@@ -131,5 +131,37 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Design-Pattern-For-Swift/21.&#x4eab;&#x5143;&#x6a21;&#x5f0f;/&#x4eab;&#x5143;/&#x5de5;&#x5382;/NEFlyweightFactory.swift"
+            timestampString = "537849868.86454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getMode(key:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Design-Pattern-For-Swift/21.&#x4eab;&#x5143;&#x6a21;&#x5f0f;/&#x4eab;&#x5143;/&#x5546;&#x54c1;/&#x5339;&#x914d;&#x3001;&#x6392;&#x4f4d;&#x3001;&#x5a31;&#x4e50;&#x6a21;&#x5f0f;/NEGameMode.swift"
+            timestampString = "537849678.771399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
